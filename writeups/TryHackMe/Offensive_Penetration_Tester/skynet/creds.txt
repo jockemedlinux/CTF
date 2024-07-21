@@ -1,0 +1,9 @@
+[smb-anon]
+anonymous%anonymous
+[smb]
+milesdyson:)s{A&2Z=F^n_E.B`
+
+[imap]
+
+[mail]
+milesdyson:cyborg007haloterminator

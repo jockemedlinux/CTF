@@ -1,0 +1,1 @@
+# Nmap 7.93 scan initiated Tue Apr  4 15:32:14 2023 as: nmap -sV -sC -oN skynet.log 10.10.157.96

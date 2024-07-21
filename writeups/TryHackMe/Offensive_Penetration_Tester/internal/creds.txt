@@ -1,0 +1,14 @@
+admin:my2boys
+wordpress:wordpress123
+phpmyadmin:B2Ud4fEOZmVq
+william:arnold147
+aubreanna:bubb13guM!@#123
+admin:spongebob
+root:tr0ub13guM!@#123
+
+
+master.key
+5354f116835133ad1273b83a07d25e0eff524d19fcea2f5de32373169a7b0ef8b30e84a1b1b414e8bf9fc80f72f2ce6db34df700038fb76f73e74cd9ea4e8b3e998ed3f715e444ba6ada6ba9adce287001d496af0174a310a0ba90eec85f7d5bf092cace21f3fb76d9d8f96702897dae8b51c3f76c81b7db53c62c16360659
+
+secret.key
+ff9d7e137411b61679dfe34a2a385ee066fcd850d0b97cbb2c319c2b4cad125f

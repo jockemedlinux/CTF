@@ -1,0 +1,43 @@
+# Nmap 7.93 scan initiated Tue Apr  4 15:32:18 2023 as: nmap -sV -sC -oN nmap-skynet.log 10.10.157.96
+Nmap scan report for 10.10.157.96
+Host is up (0.055s latency).
+Not shown: 994 closed tcp ports (conn-refused)
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 992331bbb1e943b756944cb9e82146c5 (RSA)
+|   256 57c07502712d193183dbe4fe679668cf (ECDSA)
+|_  256 46fa4efc10a54f5757d06d54f6c34dfe (ED25519)
+80/tcp  open  http        Apache httpd 2.4.18 ((Ubuntu))
+110/tcp open  pop3        Dovecot pop3d
+|_pop3-capabilities: TOP CAPA SASL PIPELINING AUTH-RESP-CODE RESP-CODES UIDL
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+143/tcp open  imap        Dovecot imapd
+|_imap-capabilities: more have IDLE post-login listed capabilities Pre-login LITERAL+ LOGINDISABLEDA0001 LOGIN-REFERRALS SASL-IR ID OK ENABLE IMAP4rev1
+445/tcp open  netbios-ssn Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+Service Info: Host: SKYNET; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: 1h39m52s, deviation: 2h53m12s, median: -7s
+|_nbstat: NetBIOS name: SKYNET, NetBIOS user: <unknown>, NetBIOS MAC: 000000000000 (Xerox)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time: 
+|   date: 2023-04-04T13:32:25
+|_  start_date: N/A
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: skynet
+|   NetBIOS computer name: SKYNET\x00
+|   Domain name: \x00
+|   FQDN: skynet
+|_  System time: 2023-04-04T08:32:25-05:00
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr  4 15:33:32 2023 -- 1 IP address (1 host up) scanned in 74.18 seconds

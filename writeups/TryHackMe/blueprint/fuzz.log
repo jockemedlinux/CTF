@@ -1,0 +1,29 @@
+MSG      0.000 feroxbuster::heuristics detected directory listing: https://10.10.180.68 (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: https://10.10.180.68 (Apache)
+301      GET        9l       30w      350c https://10.10.180.68/oscommerce-2.3.4 => https://10.10.180.68/oscommerce-2.3.4/
+MSG      0.000 feroxbuster::heuristics detected directory listing: https://10.10.180.68 (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: https://10.10.180.68/oscommerce-2.3.4/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: https://10.10.180.68/oscommerce-2.3.4/docs/ (Apache)
+200      GET     1096l     5155w    38390c https://10.10.180.68/oscommerce-2.3.4/docs/CHANGELOG
+200      GET      288l     1584w    69394c https://10.10.180.68/oscommerce-2.3.4/docs/database_schema.mwb
+200      GET       70l      324w     4392c https://10.10.180.68/oscommerce-2.3.4/catalog/ext/colorbox/colorbox.css
+401      GET       47l      132w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/download
+403      GET       42l       98w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/images/
+403      GET       42l       98w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/pub/
+403      GET       42l       98w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/Images/
+403      GET       42l       98w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/images/default/
+200      GET       14l      121w     3834c https://10.10.180.68/oscommerce-2.3.4/catalog/images/card_acceptance/paypal_horizontal_large.png
+403      GET       42l       98w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/images/icons/
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/includes/work
+200      GET       96l      696w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/
+200      GET        0l        0w  3258675c https://10.10.180.68/oscommerce-2.3.4/docs/documentation.pdf
+403      GET       42l       98w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/images/Icons/
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/includes/%20
+200      GET      154l      407w     5384c https://10.10.180.68/oscommerce-2.3.4/catalog/INSTALL/
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/images/*docroot*
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/INSTALL/*
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/pub/**http%3a
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/**http%3a
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/INSTALL/*http%3A
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/includes/%C0
+403      GET       42l       97w        0c https://10.10.180.68/oscommerce-2.3.4/catalog/INSTALL/%C0

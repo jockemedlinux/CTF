@@ -1,0 +1,42 @@
+#!/usr/bin/env ruby
+
+begin
+	def usage(message = nil)
+		if !message.nil?
+			print message + "\n"
+		end
+		print "\nusage: extract_workbench_data <MWB file> <XML file>\n\n"
+	end
+
+	if ARGV.length == 2
+		mwb_file, xml_file = ARGV
+
+		mwb_filetype = `file "#{mwb_file}"`
+		if !mwb_filetype.match(/zip/i)
+			raise "#{mwb_file} is not a MySQL Workbench file!"
+		end
+
+		xml_filetype = `file "#{xml_file}"`
+		if !xml_filetype.match(/xml/i)
+			raise "#{xml_file} is not a valid XML file!"
+		end
+		
+		print "extracting XML from #{mwb_file}...\n"
+		`mkdir -p /tmp/workbench`
+		if $?.to_i != 0 then raise "could not create temporary directory!" end
+				
+		`unzip "#{mwb_file}" -d /tmp/workbench`
+		if $?.to_i != 0 then raise "could not unzip #{mwb_file}!" end
+		
+		print "overwriting #{xml_file} with Workbench data...\n"
+		`cp /tmp/workbench/document.mwb.xml "#{xml_file}"`
+				
+		print "#{xml_file} extracted successfully.\n"
+
+		`rm -rf /tmp/workbench`
+	else
+		usage
+	end
+rescue StandardError => err
+  print err.to_s + "\n"
+end

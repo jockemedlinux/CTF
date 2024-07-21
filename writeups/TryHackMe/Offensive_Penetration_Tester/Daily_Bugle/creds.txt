@@ -1,0 +1,9 @@
+jonah@tryhackme.com
+
+jonah:spiderman123
+'$2y$10$0veO/JSFh4389Lluc4Xya.dfy2MF.bZhz0jVMw.V.d3p12kBtZutm'
+
+root:nv5uz9r3ZEDzVjNu
+*B04E65424026AC47B5626445B67352EBEFD78828
+
+password-reuse on user jjameson "nv5uz9r3ZEDzVjNu"

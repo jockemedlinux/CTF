@@ -1,0 +1,7 @@
+Administrator
+admin
+thm
+test
+sshd
+victim
+CREDS-HARVESTIN$

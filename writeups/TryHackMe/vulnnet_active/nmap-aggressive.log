@@ -1,0 +1,31 @@
+# Nmap 7.92 scan initiated Tue Jul  5 22:07:44 2022 as: nmap -A -oN nmap-aggressive.log 10.10.56.53
+Nmap scan report for 10.10.56.53
+Host is up (0.092s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT    STATE SERVICE       VERSION
+53/tcp  open  domain        Simple DNS Plus
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+464/tcp open  kpasswd5?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2022-07-05T20:08:14
+|_  start_date: N/A
+
+TRACEROUTE (using port 53/tcp)
+HOP RTT      ADDRESS
+1   55.63 ms 10.18.0.1
+2   94.44 ms 10.10.56.53
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul  5 22:08:49 2022 -- 1 IP address (1 host up) scanned in 64.86 seconds

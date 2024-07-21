@@ -1,0 +1,14 @@
+200      GET      652l     2357w    33014c http://10.10.120.168:3333/
+301      GET        9l       28w      322c http://10.10.120.168:3333/images => http://10.10.120.168:3333/images/
+301      GET        9l       28w      319c http://10.10.120.168:3333/css => http://10.10.120.168:3333/css/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.120.168:3333/css (Apache)
+301      GET        9l       28w      318c http://10.10.120.168:3333/js => http://10.10.120.168:3333/js/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.120.168:3333/images (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.120.168:3333/js (Apache)
+301      GET        9l       28w      321c http://10.10.120.168:3333/fonts => http://10.10.120.168:3333/fonts/
+301      GET        9l       28w      324c http://10.10.120.168:3333/internal => http://10.10.120.168:3333/internal/
+301      GET        9l       28w      332c http://10.10.120.168:3333/internal/uploads => http://10.10.120.168:3333/internal/uploads/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.120.168:3333/internal/uploads (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.120.168:3333/fonts (Apache)
+301      GET        9l       28w      328c http://10.10.120.168:3333/internal/css => http://10.10.120.168:3333/internal/css/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://10.10.120.168:3333/internal/css (Apache)

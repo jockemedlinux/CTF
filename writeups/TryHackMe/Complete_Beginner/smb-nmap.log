@@ -1,0 +1,55 @@
+# Nmap 7.93 scan initiated Thu Apr 20 20:48:40 2023 as: nmap -sV --script=smb-enum* -oN smb-nmap.log 10.10.186.47
+Nmap scan report for 10.10.186.47
+Host is up (0.081s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+Service Info: Host: POLOSMB; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb-enum-domains: 
+|   Builtin
+|     Groups: n/a
+|     Users: n/a
+|     Creation time: unknown
+|     Passwords: min length: 5; min age: n/a days; max age: n/a days; history: n/a passwords
+|     Account lockout disabled
+|   POLOSMB
+|     Groups: n/a
+|     Users: n/a
+|     Creation time: unknown
+|     Passwords: min length: 5; min age: n/a days; max age: n/a days; history: n/a passwords
+|_    Account lockout disabled
+| smb-enum-sessions: 
+|_  <nobody>
+| smb-enum-shares: 
+|   account_used: guest
+|   \\10.10.186.47\IPC$: 
+|     Type: STYPE_IPC_HIDDEN
+|     Comment: IPC Service (polosmb server (Samba, Ubuntu))
+|     Users: 4
+|     Max Users: <unlimited>
+|     Path: C:\tmp
+|     Anonymous access: READ/WRITE
+|     Current user access: READ/WRITE
+|   \\10.10.186.47\print$: 
+|     Type: STYPE_DISKTREE
+|     Comment: Printer Drivers
+|     Users: 0
+|     Max Users: <unlimited>
+|     Path: C:\var\lib\samba\printers
+|     Anonymous access: <none>
+|     Current user access: <none>
+|   \\10.10.186.47\profiles: 
+|     Type: STYPE_DISKTREE
+|     Comment: Users profiles
+|     Users: 0
+|     Max Users: <unlimited>
+|     Path: C:\home\samba\profiles
+|     Anonymous access: READ/WRITE
+|_    Current user access: READ/WRITE
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr 20 20:53:54 2023 -- 1 IP address (1 host up) scanned in 313.74 seconds
