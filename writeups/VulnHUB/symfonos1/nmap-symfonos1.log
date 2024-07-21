@@ -1,0 +1,44 @@
+# Nmap 7.93 scan initiated Fri Apr 28 10:10:51 2023 as: nmap -sV -sC -oN nmap-symfonos1.log 10.77.0.56
+Nmap scan report for symfonos.local (10.77.0.56)
+Host is up (0.00056s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 ab5b45a70547a50445ca6f18bd1803c2 (RSA)
+|   256 a05f400a0a1f68353ef45407619fc64a (ECDSA)
+|_  256 bc31f540bc08584bfb6617ff8412ac1d (ED25519)
+25/tcp  open  smtp        Postfix smtpd
+|_smtp-commands: symfonos.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8
+|_ssl-date: TLS randomness does not represent time
+80/tcp  open  http        Apache httpd 2.4.25 ((Debian))
+|_http-server-header: Apache/2.4.25 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp open  netbios-ssn Samba smbd 4.5.16-Debian (workgroup: WORKGROUP)
+Service Info: Hosts:  symfonos.localdomain, SYMFONOS; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 1h39m59s, deviation: 2h53m12s, median: -1s
+|_nbstat: NetBIOS name: SYMFONOS, NetBIOS user: <unknown>, NetBIOS MAC: 000000000000 (Xerox)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2023-04-28T08:11:02
+|_  start_date: N/A
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.5.16-Debian)
+|   Computer name: symfonos
+|   NetBIOS computer name: SYMFONOS\x00
+|   Domain name: \x00
+|   FQDN: symfonos
+|_  System time: 2023-04-28T03:11:02-05:00
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 28 10:11:15 2023 -- 1 IP address (1 host up) scanned in 23.83 seconds

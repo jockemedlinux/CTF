@@ -1,0 +1,82 @@
+
+Symbol table '.dynsym' contains 7 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@GLIBC_2.0 (2)
+     2: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@GLIBC_2.0 (2)
+     3: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND exit@GLIBC_2.0 (2)
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.0 (2)
+     6: 0804853c     4 OBJECT  GLOBAL DEFAULT   15 _IO_stdin_used
+
+Symbol table '.symtab' contains 69 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 08048134     0 SECTION LOCAL  DEFAULT    1 .interp
+     2: 08048148     0 SECTION LOCAL  DEFAULT    2 .note.ABI-tag
+     3: 08048168     0 SECTION LOCAL  DEFAULT    3 .note.gnu.build-id
+     4: 0804818c     0 SECTION LOCAL  DEFAULT    4 .gnu.hash
+     5: 080481ac     0 SECTION LOCAL  DEFAULT    5 .dynsym
+     6: 0804821c     0 SECTION LOCAL  DEFAULT    6 .dynstr
+     7: 08048274     0 SECTION LOCAL  DEFAULT    7 .gnu.version
+     8: 08048284     0 SECTION LOCAL  DEFAULT    8 .gnu.version_r
+     9: 080482a4     0 SECTION LOCAL  DEFAULT    9 .rel.dyn
+    10: 080482ac     0 SECTION LOCAL  DEFAULT   10 .rel.plt
+    11: 080482d4     0 SECTION LOCAL  DEFAULT   11 .init
+    12: 08048300     0 SECTION LOCAL  DEFAULT   12 .plt
+    13: 08048360     0 SECTION LOCAL  DEFAULT   13 .text
+    14: 08048524     0 SECTION LOCAL  DEFAULT   14 .fini
+    15: 08048538     0 SECTION LOCAL  DEFAULT   15 .rodata
+    16: 0804855c     0 SECTION LOCAL  DEFAULT   16 .eh_frame_hdr
+    17: 08048588     0 SECTION LOCAL  DEFAULT   17 .eh_frame
+    18: 08049638     0 SECTION LOCAL  DEFAULT   18 .init_array
+    19: 0804963c     0 SECTION LOCAL  DEFAULT   19 .fini_array
+    20: 08049640     0 SECTION LOCAL  DEFAULT   20 .jcr
+    21: 08049644     0 SECTION LOCAL  DEFAULT   21 .dynamic
+    22: 0804972c     0 SECTION LOCAL  DEFAULT   22 .got
+    23: 08049730     0 SECTION LOCAL  DEFAULT   23 .got.plt
+    24: 08049750     0 SECTION LOCAL  DEFAULT   24 .data
+    25: 08049758     0 SECTION LOCAL  DEFAULT   25 .bss
+    26: 00000000     0 SECTION LOCAL  DEFAULT   26 .comment
+    27: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    28: 08049640     0 OBJECT  LOCAL  DEFAULT   20 __JCR_LIST__
+    29: 080483a0     0 FUNC    LOCAL  DEFAULT   13 deregister_tm_clones
+    30: 080483d0     0 FUNC    LOCAL  DEFAULT   13 register_tm_clones
+    31: 08048410     0 FUNC    LOCAL  DEFAULT   13 __do_global_dtors_aux
+    32: 08049758     1 OBJECT  LOCAL  DEFAULT   25 completed.6591
+    33: 0804963c     0 OBJECT  LOCAL  DEFAULT   19 __do_global_dtor[...]
+    34: 08048430     0 FUNC    LOCAL  DEFAULT   13 frame_dummy
+    35: 08049638     0 OBJECT  LOCAL  DEFAULT   18 __frame_dummy_in[...]
+    36: 00000000     0 FILE    LOCAL  DEFAULT  ABS buf.c
+    37: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    38: 08048634     0 OBJECT  LOCAL  DEFAULT   17 __FRAME_END__
+    39: 08049640     0 OBJECT  LOCAL  DEFAULT   20 __JCR_END__
+    40: 00000000     0 FILE    LOCAL  DEFAULT  ABS 
+    41: 0804963c     0 NOTYPE  LOCAL  DEFAULT   18 __init_array_end
+    42: 08049644     0 OBJECT  LOCAL  DEFAULT   21 _DYNAMIC
+    43: 08049638     0 NOTYPE  LOCAL  DEFAULT   18 __init_array_start
+    44: 08049730     0 OBJECT  LOCAL  DEFAULT   23 _GLOBAL_OFFSET_TABLE_
+    45: 08048520     2 FUNC    GLOBAL DEFAULT   13 __libc_csu_fini
+    46: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterT[...]
+    47: 08048390     4 FUNC    GLOBAL HIDDEN    13 __x86.get_pc_thunk.bx
+    48: 08049750     0 NOTYPE  WEAK   DEFAULT   24 data_start
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@@GLIBC_2.0
+    50: 08049758     0 NOTYPE  GLOBAL DEFAULT   24 _edata
+    51: 08048524     0 FUNC    GLOBAL DEFAULT   14 _fini
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@@GLIBC_2.0
+    53: 08049750     0 NOTYPE  GLOBAL DEFAULT   24 __data_start
+    54: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND exit@@GLIBC_2.0
+    56: 08049754     0 OBJECT  GLOBAL HIDDEN    24 __dso_handle
+    57: 0804853c     4 OBJECT  GLOBAL DEFAULT   15 _IO_stdin_used
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND __libc_start_mai[...]
+    59: 080484b0    97 FUNC    GLOBAL DEFAULT   13 __libc_csu_init
+    60: 0804975c     0 NOTYPE  GLOBAL DEFAULT   25 _end
+    61: 08048360     0 FUNC    GLOBAL DEFAULT   13 _start
+    62: 08048538     4 OBJECT  GLOBAL DEFAULT   15 _fp_hw
+    63: 08049758     0 NOTYPE  GLOBAL DEFAULT   25 __bss_start
+    64: 0804845d    82 FUNC    GLOBAL DEFAULT   13 main
+    65: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _Jv_RegisterClasses
+    66: 08049758     0 OBJECT  GLOBAL HIDDEN    24 __TMC_END__
+    67: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMC[...]
+    68: 080482d4     0 FUNC    GLOBAL DEFAULT   11 _init

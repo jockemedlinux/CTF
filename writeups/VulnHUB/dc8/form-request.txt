@@ -1,0 +1,12 @@
+GET http://dc-8/?nid=1 HTTP/1.1
+Host: dc-8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://dc-8/CHANGELOG:txt
+DNT: 1
+Connection: keep-alive
+Cookie: has_js=1; webform-3[1683197318]=1683197318; webform-3[1683197741]=1683197741
+Upgrade-Insecure-Requests: 1
+

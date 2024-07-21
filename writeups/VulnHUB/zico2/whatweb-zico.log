@@ -1,0 +1,83 @@
+WhatWeb report for http://zico.com
+Status    : 200 OK
+Title     : Zico's Shop
+IP        : 10.77.0.77
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.2.22], Bootstrap, Email[feedback@startbootstrap.com,your-email@your-domain.com], HTML5, HTTPServer[Ubuntu Linux][Apache/2.2.22 (Ubuntu)], JQuery, Script, X-UA-Compatible[IE=edge]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.2.22 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ Bootstrap ]
+	Bootstrap is an open source toolkit for developing with 
+	HTML, CSS, and JS. 
+
+	Website     : https://getbootstrap.com/
+
+[ Email ]
+	Extract email addresses. Find valid email address and 
+	syntactically invalid email addresses from mailto: link 
+	tags. We match syntactically invalid links containing 
+	mailto: to catch anti-spam email addresses, eg. bob at 
+	gmail.com. This uses the simplified email regular 
+	expression from 
+	http://www.regular-expressions.info/email.html for valid 
+	email address matching. 
+
+	String       : feedback@startbootstrap.com,your-email@your-domain.com
+	String       : your-email@your-domain.com
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Ubuntu Linux
+	String       : Apache/2.2.22 (Ubuntu) (from server string)
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+
+[ X-UA-Compatible ]
+	This plugin retrieves the X-UA-Compatible value from the 
+	HTTP header and meta http-equiv tag. - More Info: 
+	http://msdn.microsoft.com/en-us/library/cc817574.aspx 
+
+	String       : IE=edge
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Tue, 06 Jun 2023 19:20:25 GMT
+	Server: Apache/2.2.22 (Ubuntu)
+	Last-Modified: Thu, 08 Jun 2017 19:18:30 GMT
+	ETag: "3a09c9-1f22-55177b7ccfb97"
+	Accept-Ranges: bytes
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 2176
+	Connection: close
+	Content-Type: text/html
+	

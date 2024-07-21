@@ -1,0 +1,9 @@
+# Nmap 7.93 scan initiated Sun Apr 30 17:18:35 2023 as: nmap -p- -oN nmap-allports-dc2.log 10.77.0.63
+Nmap scan report for dc.local (10.77.0.63)
+Host is up (0.00036s latency).
+Not shown: 65533 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+7744/tcp open  raqmon-pdu
+
+# Nmap done at Sun Apr 30 17:18:40 2023 -- 1 IP address (1 host up) scanned in 4.83 seconds

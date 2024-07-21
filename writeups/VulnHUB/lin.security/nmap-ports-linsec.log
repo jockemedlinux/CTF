@@ -1,0 +1,30 @@
+# Nmap 7.94 scan initiated Mon Jun 26 22:19:50 2023 as: nmap -sV -sC -p 22,111,2049,34105,47371,52387,60159 -oN nmap-ports-linsec.log 10.77.0.89
+Nmap scan report for 10.77.0.89
+Host is up (0.00044s latency).
+
+PORT      STATE SERVICE  VERSION
+22/tcp    open  ssh      OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 7a:9b:b9:32:6f:95:77:10:c0:a0:80:35:34:b1:c0:00 (RSA)
+|   256 24:0c:7a:82:78:18:2d:66:46:3b:1a:36:22:06:e1:a1 (ECDSA)
+|_  256 b9:15:59:78:85:78:9e:a5:e6:16:f6:cf:96:2d:1d:36 (ED25519)
+111/tcp   open  rpcbind  2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100005  1,2,3      33565/tcp6  mountd
+|   100005  1,2,3      37337/udp   mountd
+|   100005  1,2,3      51185/udp6  mountd
+|   100005  1,2,3      60159/tcp   mountd
+|   100227  3           2049/tcp   nfs_acl
+|   100227  3           2049/tcp6  nfs_acl
+|   100227  3           2049/udp   nfs_acl
+|_  100227  3           2049/udp6  nfs_acl
+2049/tcp  open  nfs_acl  3 (RPC #100227)
+34105/tcp open  nlockmgr 1-4 (RPC #100021)
+47371/tcp open  mountd   1-3 (RPC #100005)
+52387/tcp open  mountd   1-3 (RPC #100005)
+60159/tcp open  mountd   1-3 (RPC #100005)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 26 22:19:56 2023 -- 1 IP address (1 host up) scanned in 6.43 seconds

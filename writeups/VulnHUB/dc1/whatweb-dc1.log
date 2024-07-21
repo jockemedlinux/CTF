@@ -1,0 +1,106 @@
+WhatWeb report for http://dc.local
+Status    : 200 OK
+Title     : Welcome to Drupal Site | Drupal Site
+IP        : 10.77.0.61
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.2.22], Content-Language[en], Drupal, HTTPServer[Debian Linux][Apache/2.2.22 (Debian)], JQuery, MetaGenerator[Drupal 7 (http://drupal.org)], PasswordField[pass], PHP[5.4.45-0+deb7u14], Script[text/javascript], UncommonHeaders[x-generator], X-Powered-By[PHP/5.4.45-0+deb7u14]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.2.22 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ Content-Language ]
+	Detect the content-language setting from the HTTP header. 
+
+	String       : en
+
+[ Drupal ]
+	Drupal is an opensource CMS written in PHP. 
+
+	Aggressive function available (check plugin file or details).
+	Google Dorks: (1)
+	Website     : http://www.drupal.org
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.2.22 (Debian) (from server string)
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : Drupal 7 (http://drupal.org)
+
+[ PHP ]
+	PHP is a widely-used general-purpose scripting language 
+	that is especially suited for Web development and can be 
+	embedded into HTML. This plugin identifies PHP errors, 
+	modules and versions and extracts the local file path and 
+	username if present. 
+
+	Version      : 5.4.45-0+deb7u14
+	Google Dorks: (2)
+	Website     : http://www.php.net/
+
+[ PasswordField ]
+	find password fields 
+
+	String       : pass (from field name)
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-generator (from headers)
+
+[ X-Powered-By ]
+	X-Powered-By HTTP header 
+
+	String       : PHP/5.4.45-0+deb7u14 (from x-powered-by string)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 30 Apr 2023 12:05:00 GMT
+	Server: Apache/2.2.22 (Debian)
+	X-Powered-By: PHP/5.4.45-0+deb7u14
+	Expires: Sun, 19 Nov 1978 05:00:00 GMT
+	Last-Modified: Sun, 30 Apr 2023 12:05:00 +0000
+	Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+	ETag: "1682856300"
+	Content-Language: en
+	X-Generator: Drupal 7 (http://drupal.org)
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 2261
+	Connection: close
+	Content-Type: text/html; charset=utf-8
+	

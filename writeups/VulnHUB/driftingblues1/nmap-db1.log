@@ -1,0 +1,17 @@
+# Nmap 7.93 scan initiated Wed Apr 26 15:35:38 2023 as: nmap -sV -sC -oN nmap-db1.log 10.77.0.48
+Nmap scan report for 10.77.0.48
+Host is up (0.00024s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 cae6d11f27f26298efbfe438b5f16777 (RSA)
+|   256 a8589999f681c4c2b4da44da9bf3b89b (ECDSA)
+|_  256 395b552a79edc3bff516fdbd61292ab7 (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Drifting Blues Tech
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr 26 15:35:45 2023 -- 1 IP address (1 host up) scanned in 6.57 seconds

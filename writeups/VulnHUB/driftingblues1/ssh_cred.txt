@@ -1,0 +1,5 @@
+we can use ssh password in case of emergency. it was "1mw4ckyyucky".
+
+sheryl once told me that she added a number to the end of the password.
+
+-db

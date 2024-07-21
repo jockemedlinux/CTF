@@ -1,0 +1,34 @@
+# Nmap 7.93 scan initiated Sun Apr 30 14:04:58 2023 as: nmap -sV -sC -oN nmap-dc1.log 10.77.0.61
+Nmap scan report for dc.local (10.77.0.61)
+Host is up (0.00019s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 6.0p1 Debian 4+deb7u7 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 c4d659e6774c227a961660678b42488f (DSA)
+|   2048 1182fe534edc5b327f446482757dd0a0 (RSA)
+|_  256 3daa985c87afea84b823688db9055fd8 (ECDSA)
+80/tcp  open  http    Apache httpd 2.2.22 ((Debian))
+|_http-server-header: Apache/2.2.22 (Debian)
+|_http-generator: Drupal 7 (http://drupal.org)
+|_http-title: Welcome to Drupal Site | Drupal Site
+| http-robots.txt: 36 disallowed entries (15 shown)
+| /includes/ /misc/ /modules/ /profiles/ /scripts/ 
+| /themes/ /CHANGELOG.txt /cron.php /INSTALL.mysql.txt 
+| /INSTALL.pgsql.txt /INSTALL.sqlite.txt /install.php /INSTALL.txt 
+|_/LICENSE.txt /MAINTAINERS.txt
+111/tcp open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100024  1          34313/tcp   status
+|   100024  1          36832/udp   status
+|   100024  1          42445/udp6  status
+|_  100024  1          46022/tcp6  status
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr 30 14:05:09 2023 -- 1 IP address (1 host up) scanned in 10.43 seconds

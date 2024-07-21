@@ -1,0 +1,22 @@
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Target IP:          10.77.0.78
++ Target Hostname:    10.77.0.78
++ Target Port:        12380
++ Start Time:         2023-06-07 10:09:25 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.18 (Ubuntu)
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: Uncommon header 'dave' found, with contents: Soemthing doesn't look right here.
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Apache/2.4.18 appears to be outdated (current is at least Apache/2.4.54). Apache 2.2.34 is the EOL for the 2.x branch.
++ /c/: This might be interesting.
++ /js: This might be interesting.
++ /CSNews.cgi?command=viewnews&database=none: csNews reveals system path and other sensitive information in error messages. Also may be possible to bypass authentication mechanism.
++ /ci/: This might be interesting: potential country code (CÔte D'ivoire).
++ /is/: This might be interesting: potential country code (Iceland).
++ /ie/: This might be interesting: potential country code (Ireland).
++ /nu/: This might be interesting: potential country code (Niue).
++ /sb/: This might be interesting: potential country code (Solomon Islands).
++ /gs/: This might be interesting: potential country code (South Georgia And The South Sandwich Islands).

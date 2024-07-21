@@ -1,0 +1,78 @@
+WhatWeb report for http://pinkys:31337
+Status    : 400 Bad Request
+Title     : ERROR: The requested URL could not be retrieved
+IP        : 10.77.0.73
+Country   : RESERVED, ZZ
+
+Summary   : Content-Language[en], Email[webmaster], HTTPServer[squid/3.5.23], Squid-Web-Proxy-Cache[3.5.23], UncommonHeaders[x-squid-error], Via-Proxy[1.1 pinkys-palace (squid/3.5.23)], X-Cache[pinkys-palace,pinkys-palace:31337]
+
+Detected Plugins:
+[ Content-Language ]
+	Detect the content-language setting from the HTTP header. 
+
+	String       : en
+
+[ Email ]
+	Extract email addresses. Find valid email address and 
+	syntactically invalid email addresses from mailto: link 
+	tags. We match syntactically invalid links containing 
+	mailto: to catch anti-spam email addresses, eg. bob at 
+	gmail.com. This uses the simplified email regular 
+	expression from 
+	http://www.regular-expressions.info/email.html for valid 
+	email address matching. 
+
+	String       : webmaster
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : squid/3.5.23 (from server string)
+
+[ Squid-Web-Proxy-Cache ]
+	Squid is a caching proxy for the Web supporting HTTP, 
+	HTTPS, FTP, and more. It reduces bandwidth and improves 
+	response times by caching and reusing frequently-requested 
+	web pages. 
+
+	Version      : 3.5.23
+	Website     : http://www.squid-cache.org/
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : x-squid-error (from headers)
+
+[ Via-Proxy ]
+	This plugin extracts the proxy server details from the Via 
+	param of the HTTP header. 
+
+	String       : 1.1 pinkys-palace (squid/3.5.23)
+
+[ X-Cache ]
+	This plugin identifies the X-Cache HTTP header and extracts 
+	the value. 
+
+	String       : pinkys-palace
+	String       : pinkys-palace:31337
+
+HTTP Headers:
+	HTTP/1.1 400 Bad Request
+	Server: squid/3.5.23
+	Mime-Version: 1.0
+	Date: Sat, 06 May 2023 12:05:32 GMT
+	Content-Type: text/html;charset=utf-8
+	Content-Length: 3530
+	X-Squid-Error: ERR_INVALID_URL 0
+	Vary: Accept-Language
+	Content-Language: en
+	X-Cache: MISS from pinkys-palace
+	X-Cache-Lookup: NONE from pinkys-palace:31337
+	Via: 1.1 pinkys-palace (squid/3.5.23)
+	Connection: close
+	

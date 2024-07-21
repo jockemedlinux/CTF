@@ -1,0 +1,33 @@
+WhatWeb report for http://symfonos.local
+Status    : 200 OK
+Title     : <None>
+IP        : 10.77.0.57
+Country   : RESERVED, ZZ
+
+Summary   : HTTPServer[webfs/1.21], webfs[1.21]
+
+Detected Plugins:
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : webfs/1.21 (from server string)
+
+[ webfs ]
+	This is a simple http server for mostly static content. You 
+	can use it to serve the content of a ftp server via http 
+	for example. 
+
+	Version      : 1.21
+	Website     : http://linux.bytesex.org/misc/webfs.html
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Server: webfs/1.21
+	Connection: Close
+	Accept-Ranges: bytes
+	Content-Type: text/html
+	Content-Length: 183
+	Last-Modified: Thu, 18 Jul 2019 13:03:42 GMT
+	Date: Fri, 28 Apr 2023 11:13:38 GMT
+	

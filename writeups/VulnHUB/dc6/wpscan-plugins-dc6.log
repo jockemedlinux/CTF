@@ -1,0 +1,122 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.22
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[32m[+][0m URL: http://wordy/ [10.77.0.69]
+[32m[+][0m Started: Wed May  3 09:34:48 2023
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: Server: Apache/2.4.25 (Debian)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: http://wordy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: http://wordy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: http://wordy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 5.1.1 identified (Insecure, released on 2019-03-13).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://wordy/index.php/feed/, <generator>https://wordpress.org/?v=5.1.1</generator>
+ |  - http://wordy/index.php/comments/feed/, <generator>https://wordpress.org/?v=5.1.1</generator>
+
+[32m[+][0m WordPress theme in use: twentyseventeen
+ | Location: http://wordy/wp-content/themes/twentyseventeen/
+ | Last Updated: 2023-03-29T00:00:00.000Z
+ | Readme: http://wordy/wp-content/themes/twentyseventeen/README.txt
+ | [33m[!][0m The version is out of date, the latest version is 3.2
+ | Style URL: http://wordy/wp-content/themes/twentyseventeen/style.css?ver=5.1.1
+ | Style Name: Twenty Seventeen
+ | Style URI: https://wordpress.org/themes/twentyseventeen/
+ | Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a fo...
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 2.1 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://wordy/wp-content/themes/twentyseventeen/style.css?ver=5.1.1, Match: 'Version: 2.1'
+
+[32m[+][0m Enumerating All Plugins (via Aggressive Methods)
+
+ Checking Known Locations -: |=============================================================================================================================================================================================================|
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m akismet
+ | Location: http://wordy/wp-content/plugins/akismet/
+ | Latest Version: 5.1
+ | Last Updated: 2023-04-05T10:17:00.000Z
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://wordy/wp-content/plugins/akismet/, status: 403
+ |
+ | The version could not be determined.
+
+[32m[+][0m plainview-activity-monitor
+ | Location: http://wordy/wp-content/plugins/plainview-activity-monitor/
+ | Last Updated: 2018-08-26T15:08:00.000Z
+ | Readme: http://wordy/wp-content/plugins/plainview-activity-monitor/readme.txt
+ | [33m[!][0m The version is out of date, the latest version is 20180826
+ | [31m[!][0m Directory listing is enabled
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://wordy/wp-content/plugins/plainview-activity-monitor/, status: 200
+ |
+ | Version: 20161228 (50% confidence)
+ | Found By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - http://wordy/wp-content/plugins/plainview-activity-monitor/readme.txt
+
+[32m[+][0m user-role-editor
+ | Location: http://wordy/wp-content/plugins/user-role-editor/
+ | Last Updated: 2023-03-13T09:06:00.000Z
+ | Readme: http://wordy/wp-content/plugins/user-role-editor/readme.txt
+ | [33m[!][0m The version is out of date, the latest version is 4.63.3
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://wordy/wp-content/plugins/user-role-editor/, status: 200
+ |
+ | Version: 4.24 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - http://wordy/wp-content/plugins/user-role-editor/readme.txt
+
+[33m[!][0m No WPScan API Token given, as a result vulnerability data has not been output.
+[33m[!][0m You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[32m[+][0m Finished: Wed May  3 09:36:31 2023
+[32m[+][0m Requests Done: 103083
+[32m[+][0m Cached Requests: 42
+[32m[+][0m Data Sent: 25.806 MB
+[32m[+][0m Data Received: 13.812 MB
+[32m[+][0m Memory used: 481.84 MB
+[32m[+][0m Elapsed time: 00:01:43

@@ -1,0 +1,17 @@
+# Nmap 7.93 scan initiated Wed May  3 09:28:11 2023 as: nmap -sV -sC -oN nmap-dc6.log 10.77.0.69
+Nmap scan report for 10.77.0.69
+Host is up (0.00094s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 3e52cece01b694eb7b037dbe087f5ffd (RSA)
+|   256 3c836571dd73d723f8830de346bcb56f (ECDSA)
+|_  256 41899e85ae305be08fa4687106b415ee (ED25519)
+80/tcp open  http    Apache httpd 2.4.25 ((Debian))
+|_http-server-header: Apache/2.4.25 (Debian)
+|_http-title: Did not follow redirect to http://wordy/
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May  3 09:28:18 2023 -- 1 IP address (1 host up) scanned in 7.51 seconds

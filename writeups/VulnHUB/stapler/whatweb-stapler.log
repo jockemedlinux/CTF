@@ -1,0 +1,20 @@
+WhatWeb report for http://stapler.com
+Status    : 404 Not Found
+Title     : 404 Not Found
+IP        : 10.77.0.78
+Country   : RESERVED, ZZ
+
+Summary   : HTML5
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+HTTP Headers:
+	HTTP/1.1 404 Not Found
+	Host: stapler.com
+	Connection: close
+	Content-Type: text/html; charset=UTF-8
+	Content-Length: 533
+	

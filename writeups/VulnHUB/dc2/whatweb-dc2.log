@@ -1,0 +1,340 @@
+WhatWeb report for http://dc.local
+Status    : 301 Moved Permanently
+Title     : <None>
+IP        : 10.77.0.63
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.4.10], HTTPServer[Debian Linux][Apache/2.4.10 (Debian)], RedirectLocation[http://dc-2/]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.10 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.4.10 (Debian) (from server string)
+
+[ RedirectLocation ]
+	HTTP Server string location. used with http-status 301 and 
+	302 
+
+	String       : http://dc-2/ (from location)
+
+HTTP Headers:
+	HTTP/1.1 301 Moved Permanently
+	Date: Sun, 30 Apr 2023 14:45:24 GMT
+	Server: Apache/2.4.10 (Debian)
+	Location: http://dc-2/
+	Content-Length: 0
+	Connection: close
+	Content-Type: text/html; charset=UTF-8
+	
+WhatWeb report for http://dc.local
+Status    : 301 Moved Permanently
+Title     : <None>
+IP        : 10.77.0.63
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.4.10], HTTPServer[Debian Linux][Apache/2.4.10 (Debian)], RedirectLocation[http://dc-2/]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.10 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.4.10 (Debian) (from server string)
+
+[ RedirectLocation ]
+	HTTP Server string location. used with http-status 301 and 
+	302 
+
+	String       : http://dc-2/ (from location)
+
+HTTP Headers:
+	HTTP/1.1 301 Moved Permanently
+	Date: Sun, 30 Apr 2023 14:46:28 GMT
+	Server: Apache/2.4.10 (Debian)
+	Location: http://dc-2/
+	Content-Length: 0
+	Connection: close
+	Content-Type: text/html; charset=UTF-8
+	
+WhatWeb report for http://dc-2/
+Status    : 200 OK
+Title     : DC-2 &#8211; Just another WordPress site
+IP        : 10.77.0.63
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.4.10], HTML5, HTTPServer[Debian Linux][Apache/2.4.10 (Debian)], JQuery[1.12.4], MetaGenerator[WordPress 4.7.10], PoweredBy[WordPress], Script[text/javascript], UncommonHeaders[link], WordPress[4.7.10]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.10 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.4.10 (Debian) (from server string)
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Version      : 1.12.4
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : WordPress 4.7.10
+
+[ PoweredBy ]
+	This plugin identifies instances of 'Powered by x' text and 
+	attempts to extract the value for x. 
+
+	String       : WordPress
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : link (from headers)
+
+[ WordPress ]
+	WordPress is an opensource blogging system commonly used as 
+	a CMS. 
+
+	Version      : 4.7.10
+	Aggressive function available (check plugin file or details).
+	Google Dorks: (1)
+	Website     : http://www.wordpress.org/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 30 Apr 2023 14:46:29 GMT
+	Server: Apache/2.4.10 (Debian)
+WhatWeb report for http://dc.local
+Status    : 301 Moved Permanently
+Title     : <None>
+IP        : 10.77.0.63
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.4.10], HTTPServer[Debian Linux][Apache/2.4.10 (Debian)], RedirectLocation[http://dc-2/]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.10 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.4.10 (Debian) (from server string)
+
+[ RedirectLocation ]
+	HTTP Server string location. used with http-status 301 and 
+	302 
+
+	String       : http://dc-2/ (from location)
+
+HTTP Headers:
+	HTTP/1.1 301 Moved Permanently
+	Date: Sun, 30 Apr 2023 14:46:47 GMT
+	Server: Apache/2.4.10 (Debian)
+	Location: http://dc-2/
+	Content-Length: 0
+	Connection: close
+	Content-Type: text/html; charset=UTF-8
+	
+WhatWeb report for http://dc.local
+Status    : 301 Moved Permanently
+Title     : <None>
+IP        : 10.77.0.63
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.4.10], HTTPServer[Debian Linux][Apache/2.4.10 (Debian)], RedirectLocation[http://dc-2/]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.10 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.4.10 (Debian) (from server string)
+
+[ RedirectLocation ]
+	HTTP Server string location. used with http-status 301 and 
+	302 
+
+	String       : http://dc-2/ (from location)
+
+HTTP Headers:
+	HTTP/1.1 301 Moved Permanently
+	Date: Sun, 30 Apr 2023 14:46:52 GMT
+	Server: Apache/2.4.10 (Debian)
+	Location: http://dc-2/
+	Content-Length: 0
+	Connection: close
+	Content-Type: text/html; charset=UTF-8
+	
+WhatWeb report for http://dc-2/
+Status    : 200 OK
+Title     : DC-2 &#8211; Just another WordPress site
+IP        : 10.77.0.63
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.4.10], HTML5, HTTPServer[Debian Linux][Apache/2.4.10 (Debian)], JQuery[1.12.4], MetaGenerator[WordPress 4.7.10], PoweredBy[WordPress], Script[text/javascript], UncommonHeaders[link], WordPress[4.7.10]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.10 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.4.10 (Debian) (from server string)
+
+[ JQuery ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Version      : 1.12.4
+	Website     : http://jquery.com/
+
+[ MetaGenerator ]
+	This plugin identifies meta generator tags and extracts its 
+	value. 
+
+	String       : WordPress 4.7.10
+
+[ PoweredBy ]
+	This plugin identifies instances of 'Powered by x' text and 
+	attempts to extract the value for x. 
+
+	String       : WordPress
+
+[ Script ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : text/javascript
+
+[ UncommonHeaders ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : link (from headers)
+
+[ WordPress ]
+	WordPress is an opensource blogging system commonly used as 
+	a CMS. 
+
+	Version      : 4.7.10
+	Aggressive function available (check plugin file or details).
+	Google Dorks: (1)
+	Website     : http://www.wordpress.org/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Sun, 30 Apr 2023 14:46:52 GMT
+	Server: Apache/2.4.10 (Debian)
+	Link: <http://dc-2/index.php/wp-json/>; rel="https://api.w.org/"
+	Link: <http://dc-2/>; rel=shortlink
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 18301
+	Connection: close
+	Content-Type: text/html; charset=UTF-8
+	

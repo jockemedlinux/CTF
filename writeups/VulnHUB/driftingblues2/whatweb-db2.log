@@ -1,0 +1,45 @@
+WhatWeb report for http://driftingblues.box
+Status    : 200 OK
+Title     : <None>
+IP        : 10.77.0.49
+Country   : RESERVED, ZZ
+
+Summary   : Apache[2.4.38], HTML5, HTTPServer[Debian Linux][Apache/2.4.38 (Debian)]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.38 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Debian Linux
+	String       : Apache/2.4.38 (Debian) (from server string)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Wed, 26 Apr 2023 17:12:04 GMT
+	Server: Apache/2.4.38 (Debian)
+	Last-Modified: Thu, 17 Dec 2020 13:41:25 GMT
+	ETag: "80-5b6a925e8c2dc-gzip"
+	Accept-Ranges: bytes
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 117
+	Connection: close
+	Content-Type: text/html
+	

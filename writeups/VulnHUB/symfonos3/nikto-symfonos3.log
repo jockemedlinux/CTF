@@ -1,0 +1,18 @@
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Target IP:          10.77.0.58
++ Target Hostname:    10.77.0.58
++ Target Port:        80
++ Start Time:         2023-04-28 14:10:21 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.25 (Debian)
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ Apache/2.4.25 appears to be outdated (current is at least Apache/2.4.54). Apache 2.2.34 is the EOL for the 2.x branch.
++ /: Server may leak inodes via ETags, header found with file /, inode: f1, size: 58e15fe4052c8, mtime: gzip. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1418
++ OPTIONS: Allowed HTTP Methods: GET, HEAD, POST, OPTIONS .
++ /icons/README: Apache default file found. See: https://www.vntweb.co.uk/apache-restricting-access-to-iconsreadme/
++ 26640 requests: 0 error(s) and 6 item(s) reported on remote host
++ End Time:           2023-04-28 14:12:20 (GMT2) (119 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

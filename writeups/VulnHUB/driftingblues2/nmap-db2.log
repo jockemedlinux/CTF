@@ -1,0 +1,20 @@
+# Nmap 7.93 scan initiated Wed Apr 26 19:11:15 2023 as: nmap -sV -sC -oN nmap-db2.log 10.77.0.49
+Nmap scan report for test.driftingblues.box (10.77.0.49)
+Host is up (0.0062s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     ProFTPD
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_-rwxr-xr-x   1 ftp      ftp       1403770 Dec 17  2020 secret.jpg
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 6afed61723cb90792bb12d3753974658 (RSA)
+|   256 5bc468d18959d748b096f311871c08ac (ECDSA)
+|_  256 613966881d8ff1d040611e99c51a1ff4 (ED25519)
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.38 (Debian)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Apr 26 19:11:29 2023 -- 1 IP address (1 host up) scanned in 13.63 seconds

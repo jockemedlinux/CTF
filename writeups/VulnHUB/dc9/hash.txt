@@ -1,0 +1,1 @@
+pwnu:$6$pwnu$K.yVRAwKzoM2NaeH30zCCE8CBFXM4YYhHRLLyJPxs8kSy8g6N0zisl1xI2MW7BPs.HAcZ41GSFAmRJ80fdfXS.:0:0:pwnu:/home/pwnu:/bin/bash

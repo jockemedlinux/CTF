@@ -1,0 +1,116 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.22
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[+] URL: http://wordpress.aragog.hogwarts/blog/ [10.77.0.80]
+[+] Started: Sun Jun 11 20:35:52 2023
+
+Interesting Finding(s):
+
+[+] Headers
+ | Interesting Entry: Server: Apache/2.4.38 (Debian)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[+] XML-RPC seems to be enabled: http://wordpress.aragog.hogwarts/blog/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[+] WordPress readme found: http://wordpress.aragog.hogwarts/blog/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[+] The external WP-Cron seems to be enabled: http://wordpress.aragog.hogwarts/blog/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[+] WordPress version 5.0.12 identified (Insecure, released on 2021-04-14).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://wordpress.aragog.hogwarts/blog/?feed=rss2, <generator>https://wordpress.org/?v=5.0.12</generator>
+ |  - http://wordpress.aragog.hogwarts/blog/?feed=comments-rss2, <generator>https://wordpress.org/?v=5.0.12</generator>
+
+[+] WordPress theme in use: twentynineteen
+ | Location: http://wordpress.aragog.hogwarts/blog/wp-content/themes/twentynineteen/
+ | Last Updated: 2023-03-29T00:00:00.000Z
+ | Readme: http://wordpress.aragog.hogwarts/blog/wp-content/themes/twentynineteen/readme.txt
+ | [!] The version is out of date, the latest version is 2.5
+ | Style URL: http://wordpress.aragog.hogwarts/blog/wp-content/themes/twentynineteen/style.css?ver=1.2
+ | Style Name: Twenty Nineteen
+ | Style URI: https://github.com/WordPress/twentynineteen
+ | Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom sty...
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 1.2 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://wordpress.aragog.hogwarts/blog/wp-content/themes/twentynineteen/style.css?ver=1.2, Match: 'Version: 1.2'
+
+
+[i] Plugin(s) Identified:
+
+[+] akismet
+ | Location: http://wordpress.aragog.hogwarts/blog/wp-content/plugins/akismet/
+ | Latest Version: 5.1
+ | Last Updated: 2023-04-05T10:17:00.000Z
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://wordpress.aragog.hogwarts/blog/wp-content/plugins/akismet/, status: 500
+ |
+ | The version could not be determined.
+
+[+] wp-file-manager
+ | Location: http://wordpress.aragog.hogwarts/blog/wp-content/plugins/wp-file-manager/
+ | Last Updated: 2023-05-04T12:18:00.000Z
+ | Readme: http://wordpress.aragog.hogwarts/blog/wp-content/plugins/wp-file-manager/readme.txt
+ | [!] The version is out of date, the latest version is 7.1.9
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - http://wordpress.aragog.hogwarts/blog/wp-content/plugins/wp-file-manager/, status: 200
+ |
+ | Version: 6.0 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - http://wordpress.aragog.hogwarts/blog/wp-content/plugins/wp-file-manager/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - http://wordpress.aragog.hogwarts/blog/wp-content/plugins/wp-file-manager/readme.txt
+
+
+[i] User(s) Identified:
+
+[+] WP-Admin
+ | Found By: Author Posts - Display Name (Passive Detection)
+ | Confirmed By: Rss Generator (Passive Detection)
+
+[+] wp-admin
+ | Found By: Author Id Brute Forcing - Author Pattern (Aggressive Detection)
+
+[!] No WPScan API Token given, as a result vulnerability data has not been output.
+[!] You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[+] Finished: Sun Jun 11 20:37:40 2023
+[+] Requests Done: 103161
+[+] Cached Requests: 50
+[+] Data Sent: 30.744 MB
+[+] Data Received: 13.817 MB
+[+] Memory used: 489.855 MB
+[+] Elapsed time: 00:01:48

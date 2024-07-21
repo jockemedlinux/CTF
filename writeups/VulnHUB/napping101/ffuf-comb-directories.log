@@ -1,0 +1,86 @@
+[2K[33mserver-status           [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 3ms][0m
+[2K[32m                        [Status: 200, Size: 1219, Words: 334, Lines: 38, Duration: 11ms][0m
+[2K[33m.htaccess               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htpasswd               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.hta                    [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[32mindex.php               [Status: 200, Size: 1219, Words: 334, Lines: 38, Duration: 20ms][0m
+[2K[33m.html                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.php                    [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.htm                    [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.phtml                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htc                    [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.html_var_de            [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.html.                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 3ms][0m
+[2K[32m.                       [Status: 200, Size: 1219, Words: 334, Lines: 38, Duration: 27ms][0m
+[2K[33m.html.html              [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 4ms][0m
+[2K[33m.htpasswds              [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 3ms][0m
+[2K[33m.htm.                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.phps                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 3ms][0m
+[2K[33m.htmll                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 8ms][0m
+[2K[33m.html.old               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.bak               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.ht                     [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.htm.htm                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 6ms][0m
+[2K[33m.html1                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htgroup                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 6ms][0m
+[2K[33m.html.printable         [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.lck               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 3ms][0m
+[2K[33m.htm.lck                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.htx                    [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htmls                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htaccess.bak           [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 5ms][0m
+[2K[33m.html.php               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 5ms][0m
+[2K[33m.htlm                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.htm2                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.htuser                 [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.html-                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 8ms][0m
+[2K[33m.html_var_DE            [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.htm.LCK                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.LCK               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 6ms][0m
+[2K[33m.htacess                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.sav               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.hts                    [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.orig              [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.html_files             [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.htm.old                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.htm.html               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.html-1                 [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.html_                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.htmlprint              [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.htm.d                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 35ms][0m
+[2K[33m.htmlpar                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 41ms][0m
+[2K[33m.htaccess.old           [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htm5                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htm.rc                 [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html--                 [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html-2                 [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htm7                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htm_                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htm8                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.images            [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html-c                 [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html-old               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html-p                 [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.htm               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html7                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html4                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htmldolmetschen        [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.pdf               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html_old               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htm3                   [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.htmlbak                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.htn                    [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.none              [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.htmlq                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 0ms][0m
+[2K[33m.html.inc               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.htmlc                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.htmlu                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m
+[2K[33m.html-0                 [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 4ms][0m
+[2K[33m.html.start             [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 3ms][0m
+[2K[33m.htm.bak                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 6ms][0m
+[2K[33m.html.txt               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 5ms][0m
+[2K[33m.htmla                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 5ms][0m
+[2K[33m.htmlfeed               [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 9ms][0m
+[2K[33m.html5                  [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 14ms][0m
+[2K[33m.htmlBAK                [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 1ms][0m
+[2K[33m.htmlDolmetschen        [Status: 403, Size: 276, Words: 20, Lines: 10, Duration: 2ms][0m

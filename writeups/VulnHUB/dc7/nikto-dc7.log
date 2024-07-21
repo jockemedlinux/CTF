@@ -1,0 +1,32 @@
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Target IP:          10.77.0.71
++ Target Hostname:    dc-7
++ Target Port:        80
++ Start Time:         2023-05-03 20:29:24 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.25 (Debian)
++ /: Drupal 8 was identified via the x-generator header. See: https://www.drupal.org/project/remove_http_headers
++ /: Drupal Link header found with value: ARRAY(0x55e0ec091888). See: https://www.drupal.org/
++ /: Uncommon header 'x-drupal-dynamic-cache' found, with contents: MISS.
++ /Eavm0SOQ.sh: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /robots.txt: Entry '/index.php/user/login/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/filter/tips/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/index.php/filter/tips' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/user/login/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/README.txt' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/user/password/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: Entry '/index.php/user/password/' is returned a non-forbidden or redirect HTTP code (200). See: https://portswigger.net/kb/issues/00600600_robots-txt-file
++ /robots.txt: contains 40 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt
++ Apache/2.4.25 appears to be outdated (current is at least Apache/2.4.54). Apache 2.2.34 is the EOL for the 2.x branch.
++ OPTIONS: Allowed HTTP Methods: GET, POST .
++ /web.config: ASP config file is accessible.
++ /INSTALL.txt: Default file found.
++ /LICENSE.txt: License file found may identify site software.
++ /icons/README: Apache default file found. See: https://www.vntweb.co.uk/apache-restricting-access-to-iconsreadme/
++ /core/CHANGELOG.txt: Drupal version number revealed in CHANGELOG.txt.
++ 7893 requests: 0 error(s) and 19 item(s) reported on remote host
++ End Time:           2023-05-03 20:33:42 (GMT2) (258 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
