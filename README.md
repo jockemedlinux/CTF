@@ -12,3 +12,6 @@ Various coding challenges from different places.
 
 ### writeups
 Various walthroughs, writeups, reports, or other information on challenges I have completed.
+
+### library
+some seriously good juicy stuff
