@@ -1,0 +1,5 @@
+nagios
+nagiosadmin
+crayadm
+root
+nagiosxi

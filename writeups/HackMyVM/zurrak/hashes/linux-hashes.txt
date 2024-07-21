@@ -1,0 +1,2 @@
+root:$6$Lhotqdzv$ngJMZNXNV88poR.tiWSr3IkvEzMmqyW0i6l3VDUd2JV8HP8xSMcWMLIl3fEyoCgivBr9AHc9JaHqUMQEcDVh81:0:0:root:/root:/bin/bash
+postgres:$6$ZaTjsuy0$rBmhDDcT45A.p6chCl53MNn3c3k2lKjSn5sneyxOxaVpozADMVScztCYmdyexb4Gy7IvwlbBwzvRd.krKqT1L/:1000:1000:postgres,,,:/home/postgres:/bin/bash

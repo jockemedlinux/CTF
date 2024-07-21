@@ -1,0 +1,26 @@
+# Nmap 7.94SVN scan initiated Sun Jun 23 19:56:01 2024 as: nmap -sV -A -oN nmap.log 10.77.0.222
+Nmap scan report for 10.77.0.222
+Host is up (0.00083s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.2p1 Debian 2+deb12u1 (protocol 2.0)
+| ssh-hostkey: 
+|   256 dd:83:da:cb:45:d3:a8:ea:c6:be:19:03:45:76:43:8c (ECDSA)
+|_  256 e5:5f:7f:25:aa:c0:18:04:c4:46:98:b3:5d:a5:2b:48 (ED25519)
+80/tcp open  http    Apache httpd 2.4.57 ((Debian))
+|_http-title: zon
+|_http-server-header: Apache/2.4.57 (Debian)
+MAC Address: 08:00:27:C6:EE:C4 (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.8
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.83 ms 10.77.0.222
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jun 23 19:56:10 2024 -- 1 IP address (1 host up) scanned in 8.42 seconds

@@ -1,0 +1,18 @@
+# Nmap 7.94SVN scan initiated Sun Jul 21 08:57:14 2024 as: nmap -sV -sC -oA recon/away 172.168.50.22
+Nmap scan report for away.hmv (172.168.50.22)
+Host is up (0.0041s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 f1:87:03:41:21:12:ef:80:3c:8f:07:2f:8b:3c:6e:2a (RSA)
+|   256 5f:f9:ca:19:0d:74:65:2c:97:4a:36:a4:04:7c:9b:bd (ECDSA)
+|_  256 39:a4:b3:38:94:c5:d2:77:07:a1:dd:b4:2f:0a:5a:44 (ED25519)
+80/tcp open  http    nginx 1.18.0
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: nginx/1.18.0
+MAC Address: 08:00:27:B9:BB:BB (Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jul 21 08:57:21 2024 -- 1 IP address (1 host up) scanned in 6.92 seconds

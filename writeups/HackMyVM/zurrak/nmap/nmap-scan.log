@@ -1,0 +1,42 @@
+# Nmap 7.94SVN scan initiated Sat Feb  3 15:33:49 2024 as: nmap -p- -A -oN nmap/nmap-scan.log 10.77.0.13
+Nmap scan report for zurrak.htb (10.77.0.13)
+Host is up (0.021s latency).
+Not shown: 65531 closed tcp ports (conn-refused)
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Apache httpd 2.4.57 ((Debian))
+|_http-server-header: Apache/2.4.57 (Debian)
+| http-title: Login Page
+|_Requested resource was login.php
+139/tcp  open  netbios-ssn Samba smbd 4.6.2
+445/tcp  open  netbios-ssn Samba smbd 4.6.2
+5432/tcp open  postgresql  PostgreSQL DB 9.6.0 or later
+|_ssl-date: TLS randomness does not represent time
+| fingerprint-strings: 
+|   SMBProgNeg: 
+|     SFATAL
+|     VFATAL
+|     C0A000
+|     Munsupported frontend protocol 65363.19778: server supports 3.0 to 3.0
+|     Fpostmaster.c
+|     L2195
+|_    RProcessStartupPacket
+| ssl-cert: Subject: commonName=zurrak
+| Subject Alternative Name: DNS:zurrak
+| Not valid before: 2023-10-20T19:29:16
+|_Not valid after:  2033-10-17T19:29:16
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5432-TCP:V=7.94SVN%I=7%D=2/3%Time=65BE4ED9%P=x86_64-pc-linux-gnu%r(
+SF:SMBProgNeg,8C,"E\0\0\0\x8bSFATAL\0VFATAL\0C0A000\0Munsupported\x20front
+SF:end\x20protocol\x2065363\.19778:\x20server\x20supports\x203\.0\x20to\x2
+SF:03\.0\0Fpostmaster\.c\0L2195\0RProcessStartupPacket\0\0");
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2024-02-03T14:34:06
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  3 15:34:12 2024 -- 1 IP address (1 host up) scanned in 22.60 seconds

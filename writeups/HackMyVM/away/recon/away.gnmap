@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Sun Jul 21 08:57:14 2024 as: nmap -sV -sC -oA recon/away 172.168.50.22
+Host: 172.168.50.22 (away.hmv)	Status: Up
+Host: 172.168.50.22 (away.hmv)	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5 (protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0/	Ignored State: closed (998)
+# Nmap done at Sun Jul 21 08:57:21 2024 -- 1 IP address (1 host up) scanned in 6.92 seconds

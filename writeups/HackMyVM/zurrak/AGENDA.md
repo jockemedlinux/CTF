@@ -1,0 +1,17 @@
+- [ ] Remote enumeration
+    - [x] WEB
+        - [x] /login.php
+        - [x] /admin.php
+            - [x] we got acces by manipulating a JWT_token
+        - [x] JWT_token
+        - [x] exiftool pictures
+            - [x] We got a binary from one of the pictures. analysing this gave us creds to the samba share "share"
+    - [x] SAMBA
+        - [x] enum4linux - BUST
+        - [x] null session - BUST
+        - [x] enumerate $share
+            - [x] found juicy vmdk. analyzed, got creds for database and lots of others
+    - [x] POSTGRESQL
+        - [x] Databases (new creds?) - BUST
+    - [ ] Try newly found creds on /login.php, sambaserver, and postgresql.
+    - [ ] Upload **emergency.sh** with a backdoor onto the $share, wait for connection.
