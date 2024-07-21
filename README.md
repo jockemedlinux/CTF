@@ -9,3 +9,6 @@ Challenges from https://overthewire.org/wargames/
 
 ### coding_challenges
 Various coding challenges from different places.
+
+### writeups
+Various walthroughs, writeups, reports, or other information on challenges I have completed.
