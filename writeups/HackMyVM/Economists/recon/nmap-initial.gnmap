@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Mon Jul 22 10:45:34 2024 as: nmap -sV -sC -oA recon/nmap-initial 172.168.50.22
+Host: 172.168.50.22 (away.hmv)	Status: Up
+Host: 172.168.50.22 (away.hmv)	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.9 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/	Ignored State: closed (997)
+# Nmap done at Mon Jul 22 10:45:41 2024 -- 1 IP address (1 host up) scanned in 6.73 seconds

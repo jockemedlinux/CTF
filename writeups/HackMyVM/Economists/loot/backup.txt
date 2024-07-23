@@ -1,0 +1,80 @@
+{
+  "1": {
+    "ID": 1,
+    "name": "My icons collection",
+    "bookmark_id": "ngp70ck3ci000000",
+    "created": null,
+    "updated": 1585616056,
+    "active": 1,
+    "source": "local",
+    "order": 0,
+    "color": "000000",
+    "status": 1
+  },
+  "ngp70ck3ci000000": [
+    {
+      "id": 2683467,
+      "team": 0,
+      "name": "accountant",
+      "color": "#000000",
+      "premium": 0,
+      "sort": 1
+    },
+    {
+      "id": 2721957,
+      "team": 0,
+      "name": "accounting",
+      "color": "#000000",
+      "premium": 0,
+      "sort": 2
+    },
+    {
+      "id": 2167863,
+      "team": 0,
+      "name": "wealth",
+      "color": "#000000",
+      "premium": 0,
+      "sort": 4
+    },
+    {
+      "id": 2693204,
+      "team": 0,
+      "name": "accounting",
+      "color": "#000000",
+      "premium": 0,
+      "sort": 5
+    },
+    {
+      "id": 2660296,
+      "team": 0,
+      "name": "loan",
+      "color": "#000000",
+      "premium": 0,
+      "sort": 6
+    },
+    {
+      "id": 1679746,
+      "team": 0,
+      "name": "teamwork",
+      "color": "#000000",
+      "premium": 0,
+      "sort": 7
+    },
+    {
+      "id": 2719515,
+      "team": 0,
+      "name": "budget",
+      "color": "#000000",
+      "premium": 0,
+      "sort": 8
+    },
+    {
+      "id": 2170877,
+      "team": 0,
+      "name": "tax",
+      "color": "#000000",
+      "premium": 0,
+      "sort": 3
+    }
+  ]
+}

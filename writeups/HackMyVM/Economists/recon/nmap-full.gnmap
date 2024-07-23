@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Mon Jul 22 11:11:40 2024 as: nmap -sS -sC -p- -oA recon/nmap-full 172.168.50.22
+Host: 172.168.50.22 (elite-economists.hmv)	Status: Up
+Host: 172.168.50.22 (elite-economists.hmv)	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (65532)
+# Nmap done at Mon Jul 22 11:11:46 2024 -- 1 IP address (1 host up) scanned in 5.55 seconds

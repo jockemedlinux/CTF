@@ -1,0 +1,530 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>FFUF Report - </title>
+
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+	/>
+	<link 
+	  rel="stylesheet" 
+	  type="text/css" 
+	  href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"
+	/>
+  
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">FFUF</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <main class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br /><br />
+        <h1 class="header center ">FFUF Report</h1>
+        <div class="row center">
+
+		<pre>ffuf -u http://elite-economists.hmv/FUZZ -w /BASE/wordlists/web-fuzz/raft-large-files.txt -fc 404 -o recon/ffuf-files.html -of html</pre>
+		<pre>2024-07-22T10:55:01&#43;02:00</pre>
+
+   <table id="ffufreport">
+        <thead>
+        <div style="display:none">
+|result_raw|StatusCode|FUZZ|Url|RedirectLocation|Position|ContentLength|ContentWords|ContentLines|ContentType|Duration|Resultfile|ScraperData|FfufHash|
+        </div>
+          <tr>
+              <th>Status</th>
+              <th>FUZZ</th>
+			  <th>URL</th>
+			  <th>Redirect location</th>
+              <th>Position</th>
+              <th>Length</th>
+              <th>Words</th>
+			  <th>Lines</th>
+			  <th>Type</th>
+              <th>Duration</th>
+			  <th>Resultfile</th>
+              <th>Scraper data</th>
+              <th>Ffuf Hash</th>
+          </tr>
+        </thead>
+
+        <tbody>
+			
+                <div style="display:none">
+|result_raw|200|index.html|http://elite-economists.hmv/index.html||69|35027|8011|726|text/html|6.7441ms|||a818045|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>index.html</td>
+                    
+                    <td><a href="http://elite-economists.hmv/index.html">http://elite-economists.hmv/index.html</a></td>
+                    <td><a href=""></a></td>
+                    <td>69</td>
+                    <td>35027</td>
+                    <td>8011</td>
+					<td>726</td>
+					<td>text/html</td>
+					<td>6.7441ms</td>
+                    <td></td>
+					<td></td>
+					<td>a818045</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|contact.html|http://elite-economists.hmv/contact.html||131|14317|1856|305|text/html|8.9264ms|||a818083|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>contact.html</td>
+                    
+                    <td><a href="http://elite-economists.hmv/contact.html">http://elite-economists.hmv/contact.html</a></td>
+                    <td><a href=""></a></td>
+                    <td>131</td>
+                    <td>14317</td>
+                    <td>1856</td>
+					<td>305</td>
+					<td>text/html</td>
+					<td>8.9264ms</td>
+                    <td></td>
+					<td></td>
+					<td>a818083</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htaccess|http://elite-economists.hmv/.htaccess||157|285|20|10|text/html; charset=iso-8859-1|5.0443ms|||a81809d|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htaccess</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htaccess">http://elite-economists.hmv/.htaccess</a></td>
+                    <td><a href=""></a></td>
+                    <td>157</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>5.0443ms</td>
+                    <td></td>
+					<td></td>
+					<td>a81809d</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|.|http://elite-economists.hmv/.||379|35027|8011|726|text/html|10.4808ms|||a818017b|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>.</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.">http://elite-economists.hmv/.</a></td>
+                    <td><a href=""></a></td>
+                    <td>379</td>
+                    <td>35027</td>
+                    <td>8011</td>
+					<td>726</td>
+					<td>text/html</td>
+					<td>10.4808ms</td>
+                    <td></td>
+					<td></td>
+					<td>a818017b</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|about.html|http://elite-economists.hmv/about.html||408|23219|4698|477|text/html|18.721ms|||a8180198|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>about.html</td>
+                    
+                    <td><a href="http://elite-economists.hmv/about.html">http://elite-economists.hmv/about.html</a></td>
+                    <td><a href=""></a></td>
+                    <td>408</td>
+                    <td>23219</td>
+                    <td>4698</td>
+					<td>477</td>
+					<td>text/html</td>
+					<td>18.721ms</td>
+                    <td></td>
+					<td></td>
+					<td>a8180198</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.html|http://elite-economists.hmv/.html||537|285|20|10|text/html; charset=iso-8859-1|7.435001ms|||a8180219|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.html</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.html">http://elite-economists.hmv/.html</a></td>
+                    <td><a href=""></a></td>
+                    <td>537</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>7.435001ms</td>
+                    <td></td>
+					<td></td>
+					<td>a8180219</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|main.html|http://elite-economists.hmv/main.html||667|931|69|18|text/html|11.0763ms|||a818029b|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>main.html</td>
+                    
+                    <td><a href="http://elite-economists.hmv/main.html">http://elite-economists.hmv/main.html</a></td>
+                    <td><a href=""></a></td>
+                    <td>667</td>
+                    <td>931</td>
+                    <td>69</td>
+					<td>18</td>
+					<td>text/html</td>
+					<td>11.0763ms</td>
+                    <td></td>
+					<td></td>
+					<td>a818029b</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|blog.html|http://elite-economists.hmv/blog.html||718|15196|3183|316|text/html|13.5927ms|||a81802ce|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>blog.html</td>
+                    
+                    <td><a href="http://elite-economists.hmv/blog.html">http://elite-economists.hmv/blog.html</a></td>
+                    <td><a href=""></a></td>
+                    <td>718</td>
+                    <td>15196</td>
+                    <td>3183</td>
+					<td>316</td>
+					<td>text/html</td>
+					<td>13.5927ms</td>
+                    <td></td>
+					<td></td>
+					<td>a81802ce</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|services.html|http://elite-economists.hmv/services.html||945|17709|2778|399|text/html|10.4263ms|||a81803b1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>services.html</td>
+                    
+                    <td><a href="http://elite-economists.hmv/services.html">http://elite-economists.hmv/services.html</a></td>
+                    <td><a href=""></a></td>
+                    <td>945</td>
+                    <td>17709</td>
+                    <td>2778</td>
+					<td>399</td>
+					<td>text/html</td>
+					<td>10.4263ms</td>
+                    <td></td>
+					<td></td>
+					<td>a81803b1</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|readme.txt|http://elite-economists.hmv/readme.txt||984|410|47|9|text/plain|11.6596ms|||a81803d8|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>readme.txt</td>
+                    
+                    <td><a href="http://elite-economists.hmv/readme.txt">http://elite-economists.hmv/readme.txt</a></td>
+                    <td><a href=""></a></td>
+                    <td>984</td>
+                    <td>410</td>
+                    <td>47</td>
+					<td>9</td>
+					<td>text/plain</td>
+					<td>11.6596ms</td>
+                    <td></td>
+					<td></td>
+					<td>a81803d8</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htpasswd|http://elite-economists.hmv/.htpasswd||1564|285|20|10|text/html; charset=iso-8859-1|9.446ms|||a818061c|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htpasswd</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htpasswd">http://elite-economists.hmv/.htpasswd</a></td>
+                    <td><a href=""></a></td>
+                    <td>1564</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>9.446ms</td>
+                    <td></td>
+					<td></td>
+					<td>a818061c</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htm|http://elite-economists.hmv/.htm||1830|285|20|10|text/html; charset=iso-8859-1|15.0511ms|||a8180726|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htm</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htm">http://elite-economists.hmv/.htm</a></td>
+                    <td><a href=""></a></td>
+                    <td>1830</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>15.0511ms</td>
+                    <td></td>
+					<td></td>
+					<td>a8180726</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htpasswds|http://elite-economists.hmv/.htpasswds||2100|285|20|10|text/html; charset=iso-8859-1|7.6236ms|||a8180834|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htpasswds</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htpasswds">http://elite-economists.hmv/.htpasswds</a></td>
+                    <td><a href=""></a></td>
+                    <td>2100</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>7.6236ms</td>
+                    <td></td>
+					<td></td>
+					<td>a8180834</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htgroup|http://elite-economists.hmv/.htgroup||4625|285|20|10|text/html; charset=iso-8859-1|8.816301ms|||a81801211|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htgroup</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htgroup">http://elite-economists.hmv/.htgroup</a></td>
+                    <td><a href=""></a></td>
+                    <td>4625</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>8.816301ms</td>
+                    <td></td>
+					<td></td>
+					<td>a81801211</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htaccess.bak|http://elite-economists.hmv/.htaccess.bak||7079|285|20|10|text/html; charset=iso-8859-1|7.2916ms|||a81801ba7|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htaccess.bak</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htaccess.bak">http://elite-economists.hmv/.htaccess.bak</a></td>
+                    <td><a href=""></a></td>
+                    <td>7079</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>7.2916ms</td>
+                    <td></td>
+					<td></td>
+					<td>a81801ba7</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htuser|http://elite-economists.hmv/.htuser||8688|285|20|10|text/html; charset=iso-8859-1|7.2027ms|||a818021f0|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htuser</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htuser">http://elite-economists.hmv/.htuser</a></td>
+                    <td><a href=""></a></td>
+                    <td>8688</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>7.2027ms</td>
+                    <td></td>
+					<td></td>
+					<td>a818021f0</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.ht|http://elite-economists.hmv/.ht||11459|285|20|10|text/html; charset=iso-8859-1|11.287ms|||a81802cc3|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.ht</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.ht">http://elite-economists.hmv/.ht</a></td>
+                    <td><a href=""></a></td>
+                    <td>11459</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>11.287ms</td>
+                    <td></td>
+					<td></td>
+					<td>a81802cc3</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htc|http://elite-economists.hmv/.htc||11460|285|20|10|text/html; charset=iso-8859-1|12.0773ms|||a81802cc4|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htc</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htc">http://elite-economists.hmv/.htc</a></td>
+                    <td><a href=""></a></td>
+                    <td>11460</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>12.0773ms</td>
+                    <td></td>
+					<td></td>
+					<td>a81802cc4</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htaccess.old|http://elite-economists.hmv/.htaccess.old||17181|285|20|10|text/html; charset=iso-8859-1|15.9519ms|||a8180431d|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htaccess.old</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htaccess.old">http://elite-economists.hmv/.htaccess.old</a></td>
+                    <td><a href=""></a></td>
+                    <td>17181</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>15.9519ms</td>
+                    <td></td>
+					<td></td>
+					<td>a8180431d</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htacess|http://elite-economists.hmv/.htacess||17182|285|20|10|text/html; charset=iso-8859-1|16.0621ms|||a8180431e|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htacess</td>
+                    
+                    <td><a href="http://elite-economists.hmv/.htacess">http://elite-economists.hmv/.htacess</a></td>
+                    <td><a href=""></a></td>
+                    <td>17182</td>
+                    <td>285</td>
+                    <td>20</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>16.0621ms</td>
+                    <td></td>
+					<td></td>
+					<td>a8180431e</td>
+                </tr>
+            
+        </tbody>
+      </table>
+
+        </div>
+        <br /><br />
+      </div>
+    </main>
+
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#ffufreport').DataTable(
+            {
+                "aLengthMenu": [
+                    [250, 500, 1000, 2500, -1],
+                    [250, 500, 1000, 2500, "All"]
+                ]
+            }
+        )
+        $('select').formSelect();
+        });
+    </script>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+  </body>
+</html>
+
+	
