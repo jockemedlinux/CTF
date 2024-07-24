@@ -20,7 +20,6 @@ Remote Enumeration:
 This summary outlines the key steps and findings in the penetration test of the CTF box named <BOXNAME>.
 ```
 
-
 </details>
 
 # REMOTE ENUMERATION:
@@ -139,8 +138,7 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 ```
 .
 
-```
-</details>
+```</details>
 <details open="open"><summary><ins>FUZZING</ins></summary>
 
 **WEBSERVER**
@@ -182,7 +180,6 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 
 ..
 
-
 </details>
 
 # ACTIVE DIRECTORY:
@@ -190,7 +187,6 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 <details open="open"><summary><ins>STRATEGY/METHODOLOGY</ins></summary>
 
 **N/A**
-
 
 </details>
 
@@ -224,8 +220,7 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 ```
 .
 
-```
-</details>
+```</details>
 
 # LOOT
 
@@ -242,8 +237,7 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 ```bash
 .
 
-```
-</details>
+```</details>
 <details open="open"><summary><ins>CREDS:</ins></summary>
 
 **username:password**
@@ -258,8 +252,7 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 ```bash
 .
 
-```
-</details>
+```</details>
 
 # PROOFS
 
@@ -271,8 +264,7 @@ CODE:
 
 PAYLOAD:
 
-```
-</details>
+```</details>
 <details open="open"><summary><ins>PIVOTING OR PRIVILEGE ESCALATION</ins></summary>
 
 ```bash
@@ -281,8 +273,7 @@ CODE:
 
 PAYLOAD:
 
-```
-</details>
+```</details>
 <details open="open"><summary><ins>FLAGS</ins></summary>
 
 ```bash
@@ -328,6 +319,5 @@ root.txt  snap
 
 Flag: HMV{NwER6XWyM8p5VpeFEkkcGYyeJ}
 ```
-
 
 </details>
