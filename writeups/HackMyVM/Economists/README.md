@@ -20,6 +20,7 @@ Remote Enumeration:
 This summary outlines the key steps and findings in the penetration test of the CTF box named <BOXNAME>.
 ```
 
+
 </details>
 
 # REMOTE ENUMERATION:
@@ -138,7 +139,8 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 ```
 .
 
-```</details>
+```
+</details>
 <details open="open"><summary><ins>FUZZING</ins></summary>
 
 **WEBSERVER**
@@ -152,33 +154,34 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 
 > We seemingly have a company website. Elite-Economists. With a FTP server, webserver, and SSH running. I'll start off by boasting my script to grab emails.
 
-![caa10824af21023d171f09e6d11db8df.png](../_resources/caa10824af21023d171f09e6d11db8df.png)
+![caa10824af21023d171f09e6d11db8df.png](../_resources/caa10824af21023d171f09e6d11db8df-1.png)
 
 > So we only get info@elite-economists.hmv. But we find the page is actually elite-economists.hmv. So that's good.  
 > Right of the bat, nothing to juicy. After some fuzzing I only found a interesting readme.txt indicating that this is a wordpress site. Or it could just be a template stolen to make it look nice.
 
-![5c583b1e15680639ccb1dfff4caca242.png](../_resources/5c583b1e15680639ccb1dfff4caca242.png)
+![5c583b1e15680639ccb1dfff4caca242.png](../_resources/5c583b1e15680639ccb1dfff4caca242-1.png)
 
-![738491afa90c6eb57551e8d2dbaa7e63.png](../_resources/738491afa90c6eb57551e8d2dbaa7e63.png)
+![738491afa90c6eb57551e8d2dbaa7e63.png](../_resources/738491afa90c6eb57551e8d2dbaa7e63-1.png)
 
 > After some serious stumbling and rumbling I figured I'd take a closer look at the PDF files inside the ftp server. Which finally gave me a few usernames to work with. But I did not manage to bruteforce ssh for an entire night so my last hope was using cewl to grab a word from the page and throw a hail mary. But I didn't actually try it before I lost hope and looked through a guide....
 
-![b3f8a86b2a646632dc1da8902bfb82d0.png](../_resources/b3f8a86b2a646632dc1da8902bfb82d0.png)
+![b3f8a86b2a646632dc1da8902bfb82d0.png](../_resources/b3f8a86b2a646632dc1da8902bfb82d0-1.png)
 
 > Freakin bs... Why do I always feel like such a looser? If I'd use the wordlist Top29-million\* I would have cracked josephs password in about two days. after about 134662 tries...
 
-![d260d32c97a79338a5824110fd2a473a.png](../_resources/d260d32c97a79338a5824110fd2a473a.png)
+![d260d32c97a79338a5824110fd2a473a.png](../_resources/d260d32c97a79338a5824110fd2a473a-1.png)
 
 > When box be accesses, root doth noth lie far ahead. Took me about a minute to get root..
 
-![738d1a6024b962efe627527064a52198.png](../_resources/738d1a6024b962efe627527064a52198.png)
+![738d1a6024b962efe627527064a52198.png](../_resources/738d1a6024b962efe627527064a52198-1.png)
 
-![ce79a0aaeb4d2e83385bf8d059ef09d6.png](../_resources/ce79a0aaeb4d2e83385bf8d059ef09d6.png)  
+![ce79a0aaeb4d2e83385bf8d059ef09d6.png](../_resources/ce79a0aaeb4d2e83385bf8d059ef09d6-1.png)  
 ..  
 ..  
 ..
 
 ..
+
 
 </details>
 
@@ -187,6 +190,7 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 <details open="open"><summary><ins>STRATEGY/METHODOLOGY</ins></summary>
 
 **N/A**
+
 
 </details>
 
@@ -220,7 +224,8 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 ```
 .
 
-```</details>
+```
+</details>
 
 # LOOT
 
@@ -237,7 +242,8 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 ```bash
 .
 
-```</details>
+```
+</details>
 <details open="open"><summary><ins>CREDS:</ins></summary>
 
 **username:password**
@@ -252,7 +258,8 @@ DNS, SSH, FTP, TELNET, MYSQL, PROXY, SMTP, POP, IMAP, SMTP
 ```bash
 .
 
-```</details>
+```
+</details>
 
 # PROOFS
 
@@ -264,7 +271,8 @@ CODE:
 
 PAYLOAD:
 
-```</details>
+```
+</details>
 <details open="open"><summary><ins>PIVOTING OR PRIVILEGE ESCALATION</ins></summary>
 
 ```bash
@@ -273,7 +281,8 @@ CODE:
 
 PAYLOAD:
 
-```</details>
+```
+</details>
 <details open="open"><summary><ins>FLAGS</ins></summary>
 
 ```bash
@@ -319,5 +328,6 @@ root.txt  snap
 
 Flag: HMV{NwER6XWyM8p5VpeFEkkcGYyeJ}
 ```
+
 
 </details>
