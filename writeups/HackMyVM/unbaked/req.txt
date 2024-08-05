@@ -1,0 +1,15 @@
+POST /admin/login/?next=/admin/ HTTP/1.1
+Host: unbaked.hmv:5003
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://unbaked.hmv:5003/admin/login/?next=/admin/
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 131
+Origin: http://unbaked.hmv:5003
+Connection: keep-alive
+Cookie: csrftoken=vUuxGEMTVWmfM5O2FIa1uzufA2RV83KcBGTFhQKV06Nl7unnEVTPlOiu9cwIZKCs
+Upgrade-Insecure-Requests: 1
+
+csrfmiddlewaretoken=XpPukz6rwIMXjMOohX1E3mZnF1tMIuFo3beCVL4tBSd3EbnJgaKsUBNCeb8zzbxE&username=tjena&password=tjena&next=%2Fadmin%2F

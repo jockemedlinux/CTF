@@ -1,0 +1,17 @@
+{
+    "last_updated": "2024-07-28 20:57:08.273432",
+    "results": [
+        {
+            "http://172.168.50.22:5003": {
+                "cms_id": "",
+                "date": "2024-07-28 20:57:06.478118",
+                "report": "/mnt/c/Users/admin/Desktop/GIT/CTF/writeups/HackMyVM/unbaked/Result/172.168.50.22_5003/cms.json"
+            },
+            "http://172.168.50.22:5003/accounts/login": {
+                "cms_id": "",
+                "date": "2024-07-28 20:57:00.751219",
+                "report": "/mnt/c/Users/admin/Desktop/GIT/CTF/writeups/HackMyVM/unbaked/Result/172.168.50.22_5003_accounts_login/cms.json"
+            }
+        }
+    ]
+}

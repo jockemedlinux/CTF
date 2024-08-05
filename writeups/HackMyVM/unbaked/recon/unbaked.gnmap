@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Sun Jul 28 20:53:07 2024 as: nmap -Pn -p5003 -sV -sC -oA recon/unbaked 172.168.50.22
+Host: 172.168.50.22 (unbaked.hmv)	Status: Up
+Host: 172.168.50.22 (unbaked.hmv)	Ports: 5003/open/tcp//filemaker?///
+# Nmap done at Sun Jul 28 20:54:39 2024 -- 1 IP address (1 host up) scanned in 92.77 seconds

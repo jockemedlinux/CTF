@@ -1,0 +1,9 @@
+admin
+home
+share
+search
+about
+detail
+accounts
+^static
+^media
