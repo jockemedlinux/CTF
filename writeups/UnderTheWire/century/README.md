@@ -91,39 +91,37 @@ Solution(s):
 century11@century.underthewire.tech:windowsupdates110
 
 Solution(s):
+gci -r -att h ..\ -ea SilentlyContinue
 ```
 
 ### Challenge #12
 ```
-century12@century.underthewire.tech
+century12@century.underthewire.tech:secret_sauce
 
 Solution(s):
+(Get-ADComputer -Filter * -Properties *).Description
 ```
 
 ### Challenge #13
 ```
-century13@century.underthewire.tech
+century13@century.underthewire.tech:i_authenticate_things
 
 Solution(s):
+((gc .\countmywords) -split '\s+').Count
 ```
 
 ### Challenge #14
 ```
-century14@century.underthewire.tech
+century14@century.underthewire.tech:755
 
 Solution(s):
+((gc .\countpolos) -split ' ' | sls -Pattern '\bpolo\b').Count
 ```
 
 ### Challenge #15
 ```
-century15@century.underthewire.tech
+century15@century.underthewire.tech:153
 
 Solution(s):
-```
-
-### Challenge #16
-```
-century16@century.underthewire.tech
-
-Solution(s):
+N/A
 ```
