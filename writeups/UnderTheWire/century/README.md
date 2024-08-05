@@ -49,34 +49,38 @@ Get-ADDomain | Select-Object -Property NetBIOSName
 century6@century.underthewire.tech:underthewire3347
 
 Solution(s):
-
+Get-ChildItem -Directory | Measure-Object | %{$_.Count}
+(gci -Directory).Count
 ```
 
 ### Challenge #7
 ```
-century7@century.underthewire.tech
+century7@century.underthewire.tech:197
 
 Solution(s):
+gci -r -i "Readme*" | type 
 ```
 
 ### Challenge #8
 ```
-century8@century.underthewire.tech
+century8@century.underthewire.tech:7points
 
 Solution(s):
+(gc .\unique.txt | gu).Count
 ```
 
 
 ### Challenge #9
 ```
-century9@century.underthewire.tech
+century9@century.underthewire.tech:696
 
 Solution(s):
+((gc .\Word_File.txt) -split "\s+")[160]
 ```
 
 ### Challenge #10
 ```
-century10@century.underthewire.tech
+century10@century.underthewire.tech:pierid
 
 Solution(s):
 ```
