@@ -83,11 +83,12 @@ Solution(s):
 century10@century.underthewire.tech:pierid
 
 Solution(s):
+(((Get-WmiObject Win32_Service -Filter "Name='wuauserv'").Description) -Split '\s+')[9,7] ; (dir).Name
 ```
 
 ### Challenge #11
 ```
-century11@century.underthewire.tech
+century11@century.underthewire.tech:windowsupdates110
 
 Solution(s):
 ```
