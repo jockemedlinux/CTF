@@ -1,0 +1,25 @@
+print("BINARY FUNCTIONS")
+print(f'{2323:b}')
+print(bin(2323))
+print(bin(2323)[2:])
+print(f'{bin(2323)}')
+print(f'{bin(2323)[2:]}')
+
+print("\n")
+
+print("HEX FUNCTIONS")
+print(f'{2323:x}')
+print(hex(2323))
+print(hex(2323)[2:])
+print(f'{hex(2323)}')
+print(f'{hex(2323)[2:]}')
+
+print("\n")
+
+print("OCTAL FUNCTIONS")
+print(f'{2323:x}')
+print(oct(2323))
+print(oct(2323)[2:])
+print(f'{oct(2323)}')
+print(f'{oct(2323)[2:]}')
+print("\n")
