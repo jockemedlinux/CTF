@@ -37,12 +37,12 @@ Solution(s):
 cyborg4@cyborg.underthewire.tech:88_objects
 
 Solution(s):
-
+((Get-Module -ListAvailable) | ? -Property Version -Like "8.9.8.9").Name
 ```
 
 ### Challenge 5 --> 6
 ```
-cyborg5@cyborg.underthewire.tech:_egg
+cyborg5@cyborg.underthewire.tech:bacon_eggs
 
 Solution(s):
 
