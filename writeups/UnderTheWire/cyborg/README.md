@@ -45,28 +45,30 @@ Solution(s):
 cyborg5@cyborg.underthewire.tech:bacon_eggs
 
 Solution(s):
-
+Get-ADUser -Filter * -Property Surname, LogonHours | ? LogonHours
 ```
 
 ### Challenge 6 --> 7
 ```
-cyborg6@cyborg.underthewire.tech:<password>
+cyborg6@cyborg.underthewire.tech:rowray_timer
 
 Solution(s):
-
+[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('YwB5AGIAZQByAGcAZQBkAGQAbwBuAA=='))
+or
+[System.Text.Encoding]::Unicode.GetString([Convert]::FromBase64String((gc '.\cypher.txt')))
 ```
 
 ### Challenge 7 --> 8
 ```
-cyborg7@cyborg.underthewire.tech:<password>
+cyborg7@cyborg.underthewire.tech:cybergeddon
 
 Solution(s):
-
+Get-WmiObject -Class Win32_StartupCommand | Select-Object Name, Command, Location
 ```
 
 ### Challenge 8 --> 9
 ```
-cyborg8@cyborg.underthewire.tech:<password>
+cyborg8@cyborg.underthewire.tech:skynet
 
 Solution(s):
 
