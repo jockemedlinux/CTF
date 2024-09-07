@@ -71,20 +71,28 @@ Get-WmiObject -Class Win32_StartupCommand | Select-Object Name, Command, Locatio
 cyborg8@cyborg.underthewire.tech:skynet
 
 Solution(s):
+find streams: 
+Get-Item .\1_qs5nwlcl7f_-SwNlQvOrAw.png -Stream *
 
+gc .\1_qs5nwlcl7f_-SwNlQvOrAw.png:Zone.Identifier
 ```
 
 ### Challenge 9 --> 10
 ```
-cyborg9@cyborg.underthewire.tech:<password>
+cyborg9@cyborg.underthewire.tech:4
 
 Solution(s):
+First find members:
+get-aduser -Filter * -Property * | Get-Member "*phone*"
+--> There is HomePhone, MobilePhone, OfficePhone.
+--> Find which member is populated
+Get-ADUser -Filter * -Property OfficePhone | ? OfficePhone | Select Name, OfficePhone
 
 ```
 
 ### Challenge 10 --> 11
 ```
-cyborg10@cyborg.underthewire.tech:<password>
+cyborg10@cyborg.underthewire.tech:onita99
 
 Solution(s):
 
