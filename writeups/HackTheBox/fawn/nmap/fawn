@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Thu Dec 26 19:38:59 2024 as: /usr/lib/nmap/nmap --privileged -sS -sV -oN nmap/fawn 10.129.217.40
+Nmap scan report for 10.129.217.40
+Host is up (0.029s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Dec 26 19:39:00 2024 -- 1 IP address (1 host up) scanned in 1.07 seconds
