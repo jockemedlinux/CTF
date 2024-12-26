@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Thu Dec 26 19:47:45 2024 as: /usr/lib/nmap/nmap --privileged -sS -sV -p- -oN nmap/redeemer 10.129.148.6
+Nmap scan report for 10.129.148.6
+Host is up (0.027s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+6379/tcp open  redis   Redis key-value store 5.0.7
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Dec 26 19:48:05 2024 -- 1 IP address (1 host up) scanned in 20.72 seconds
